@@ -101,7 +101,7 @@
       <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/rozetka/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57575756">
+            <state vertical-scroll-proportion="0.5777027">
               <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -734,12 +734,12 @@
       <option name="number" value="Default" />
       <updated>1488484980941</updated>
       <workItem from="1488484986967" duration="6009000" />
-      <workItem from="1488491840030" duration="1587000" />
+      <workItem from="1488491840030" duration="2186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7596000" />
+    <option name="totallyTimeSpent" value="8195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="742" extended-state="6" />
@@ -913,7 +913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rozetka/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57575756">
+        <state vertical-scroll-proportion="0.5777027">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
