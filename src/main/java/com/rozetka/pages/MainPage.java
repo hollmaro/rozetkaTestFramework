@@ -33,4 +33,17 @@ public class MainPage {
             log.error("Main page WASN'T opened!" + e);
         }
     }
+
+    /**
+     * method close browser from main page
+     */
+    public void closeBrowser(){
+        webElementOnPage.closeBrowser();
+        log.info("Browser was closed from page " + "http://rozetka.com.ua");
+    }
+
+    public void closeMainPage(){
+        webElementOnPage.closePage();
+        log.info("Main page was closed!");
+    }
 }

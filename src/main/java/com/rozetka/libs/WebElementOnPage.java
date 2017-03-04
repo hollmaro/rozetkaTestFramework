@@ -20,6 +20,7 @@ public class WebElementOnPage {
 	WebDriver  driver;
 	Logger log;
 	WebDriverWait wait;
+
 	
 	public WebElementOnPage(WebDriver extDriver){
 		this.driver = extDriver;
@@ -61,8 +62,18 @@ public class WebElementOnPage {
 	/**
 	 *All keys are from UIMapping.properties file 
 	 */
-	
-	
+	//If will not work - DELETE THIS METHOD
+	public void closePage(){
+		try {
+			driver.get("");
+		} catch (Exception e) {
+		    log.error(e);// TODO: handle exception
+		}
+	}
+
+	/**
+	 *All keys are from UIMapping.properties file
+	 */
 	/**
 	 * Method clear input and typing text in input
 	 * @param text

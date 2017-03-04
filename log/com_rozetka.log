@@ -2,3 +2,19 @@
 2017-02-03 23:08:32   INFO [com.rozetka.AppTest] : Everything ok!!!
 2017-02-03 23:46:02   INFO [com.rozetka.AppTest] : Everything ok!!!
 2017-02-03 23:46:02   INFO [com.rozetka.AppTest] : Everything ok!!!
+2017-04-03 20:44:44   INFO [com.rozetka.Test1MainPageOpening] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-04-03 20:44:44   INFO [com.rozetka.Test1MainPageOpening] : Test - testOpeningMainPage[0] - started
+2017-04-03 20:44:55   INFO [com.rozetka.libs.WebElementOnPage] : Browser and urlhttp://rozetka.com.uawas opened!
+2017-04-03 20:44:55   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-04-03 20:44:59   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-04-03 20:44:59   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-04-03 20:48:21   INFO [com.rozetka.AppTest] : Everything ok!!!
+2017-04-03 20:48:22   INFO [com.rozetka.AppTest] : Everything ok!!!
+2017-04-03 20:48:51   INFO [com.rozetka.Test1MainPageOpening] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-04-03 20:48:51   INFO [com.rozetka.Test1MainPageOpening] : Test - testOpeningMainPage[0] - started
+2017-04-03 20:49:06   INFO [com.rozetka.libs.WebElementOnPage] : Browser and urlhttp://rozetka.com.uawas opened!
+2017-04-03 20:49:06   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-04-03 20:49:07   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-04-03 20:49:07   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-04-03 20:56:02   INFO [com.rozetka.AppTest] : Everything ok!!!
+2017-04-03 20:56:03   INFO [com.rozetka.AppTest] : Everything ok!!!
