@@ -29,11 +29,11 @@ public class ParentTest {
   @Parameterized.Parameters
   public static Collection data() {
    return Arrays.asList(new String[][] { 
-    { "fireFoxString" }
+    //{ "fireFoxString" }
     // ,
     //{ "chromeString" }
-    ,
-    //{ "ieString" }
+    //,
+    { "ieString" }
 
     });
   }
