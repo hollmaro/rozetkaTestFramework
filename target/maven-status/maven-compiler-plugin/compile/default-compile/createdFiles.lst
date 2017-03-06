@@ -1,0 +1,5 @@
+com\rozetka\App.class
+com\rozetka\libs\ConfigData.class
+com\rozetka\pages\MainPage.class
+com\rozetka\pages\PhonePage.class
+com\rozetka\libs\WebElementOnPage.class

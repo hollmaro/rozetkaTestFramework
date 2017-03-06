@@ -1,0 +1,47 @@
+{
+  "uid" : "aaf3994f63c5e6d3",
+  "name" : "testApp",
+  "title" : "Test app",
+  "time" : {
+    "start" : 1488769167382,
+    "stop" : 1488769167393,
+    "duration" : 11
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "32300e407ae94fa1",
+    "name" : "com.rozetka.AppTest",
+    "title" : "App test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ROMAN-ПК"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "com.rozetka.AppTest"
+  }, {
+    "name" : "thread",
+    "value" : "12780@ROMAN-ПК.main(1)"
+  } ],
+  "parameters" : [ ]
+}

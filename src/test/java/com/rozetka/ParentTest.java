@@ -8,7 +8,9 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
@@ -28,32 +30,39 @@ public class ParentTest {
   public static Collection data() {
    return Arrays.asList(new String[][] { 
     { "fireFoxString" }
-    ,
+    // ,
     //{ "chromeString" }
-    //,
+    ,
+    //{ "ieString" }
 
     });
   }
 
   
   public ParentTest(String browser) throws MalformedURLException {
-      System.setProperty("webdriver.gecko.driver", "//home//roman//Downloads//geckodriver");
+      System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
+      System.setProperty("webdriver.ie.driver", "C:\\IEDriverServer.exe");
+      System.setProperty("webdriver.edge.driver", "C:\\MicrosoftWebDriver.exe");
    if (browser.equals("fireFoxString")) {
     this.driver = new FirefoxDriver();
       /* DesiredCapabilities capability = DesiredCapabilities.firefox();
        this.driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),
                capability);*/
-   } else {
-    if (browser.equals("chromeString")) {
+  } else if (browser.equals("chromeString")) {
      this.driver = new ChromeDriver();
 
         /*DesiredCapabilities capability = DesiredCapabilities.chrome();
         this.driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),
                 capability);*/
-
-    } 
-    
    }
+   else if (browser.equals("ieString")) {
+       this.driver = new InternetExplorerDriver();
+
+        /*DesiredCapabilities capability = DesiredCapabilities.ie();
+        this.driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),
+                capability);*/
+   }
+
    log.info(" ----- " + driver.getClass() + " -------" );
    
    
@@ -64,9 +73,9 @@ public class ParentTest {
  public void setUp(){
      log.info("Test - " +  name.getMethodName() + " - started");
  }
- 
- 
- 
- 
- 
+
+
+
+
+
 }
