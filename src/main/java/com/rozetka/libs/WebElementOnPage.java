@@ -8,8 +8,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.interactions.*;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -104,8 +103,8 @@ public class WebElementOnPage {
 	 * @return boolean
 	 */
 	public boolean clickLink(String keyLinckLocator) {
-		wait.until(ExpectedConditions.elementToBeClickable(
-				driver.findElement(ui(keyLinckLocator))));
+		/*wait.until(ExpectedConditions.elementToBeClickable(
+				driver.findElement(ui(keyLinckLocator))));*/
 		try {
 			WebElement link;
 			link = driver.findElement(ui(keyLinckLocator));
@@ -231,13 +230,13 @@ public class WebElementOnPage {
 	}
 	/**
 	 * Method cheks is element on page by xpath locator
-	 * @param elementLocator
+	 * @param xpathElementLocator
 	 * @return boolean
 	 */
-	public boolean isAnyElementOnPage(String elementLocator){
+	public boolean isAnyElementOnPage(String xpathElementLocator){
 		try {
 			WebElement tempElement;
-			tempElement = driver.findElement(By.xpath(elementLocator));
+			tempElement = driver.findElement(By.xpath(xpathElementLocator));
 			if (tempElement.isEnabled() && tempElement.isDisplayed()){
 				log.info("Element is present on page");
 				return true;
@@ -291,8 +290,32 @@ public class WebElementOnPage {
 			WebElement tempElement =
 					driver.findElement(ui(keyElementLocator));
 			action.moveToElement(tempElement);
-			action.perform();
+			action.build().perform();
 			log.info("Mouse moved on element: " + keyElementLocator);
+			return true;
+		}catch (Exception e){
+			log.error(e);
+			return false;
+		}
+
+
+	}
+
+	/**
+	 * method move mouse on element and click on it
+	 * @param keyElementLocator
+	 * @return boolean
+	 */
+	public boolean mouseOnElementAndClick(String keyElementLocator) {
+		/*wait.until(ExpectedConditions.elementToBeSelected(
+				driver.findElement(ui(keyElementLocator))));*/
+		try {
+			Actions actions = new Actions(driver);
+			WebElement tempElement =
+					driver.findElement(ui(keyElementLocator));
+			actions.moveToElement(tempElement).click().build().perform();
+			//actions.build().perform();
+			log.info("Mouse moved on element " + keyElementLocator + " and clicked!");
 			return true;
 		}catch (Exception e){
 			log.error(e);

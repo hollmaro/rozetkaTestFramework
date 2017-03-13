@@ -1,13 +1,11 @@
 package com.rozetka.pages;
 
-import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 import com.rozetka.libs.WebElementOnPage;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import ru.yandex.qatools.allure.annotations.Step;
 
 import static com.rozetka.libs.ConfigData.getCfgValue;
-import static com.rozetka.libs.ConfigData.getUiMappingValue;
 
 /**
  * Created by roman on 3/2/17.
@@ -38,7 +36,7 @@ public class MainPage {
     @Step("Opening main page ROZETKA")
     public void openMainPage(){
         try {
-        	webElementOnPage.openBrowserAndUrl(MAIN_PAGE_URL);
+            webElementOnPage.openBrowserAndUrl(MAIN_PAGE_URL);
             log.info("Main page was opened!");
         } catch (Exception e) {
             log.error("Main page WASN'T opened!" + e);
@@ -66,7 +64,7 @@ public class MainPage {
      * @return boolean
      */
     public boolean clickOtkazatsaOtUvedomlienij() {
-        boolean tempElement = webElementOnPage.clickButton(getUiMappingValue("MainPage.NotificationPanel.Cancel.Button"));
+        boolean tempElement = webElementOnPage.clickButton("MainPage.NotificationPanel.Cancel.Button");
         log.info("Button for canceling notifications was clicked! ");
         return tempElement;
     }
@@ -77,9 +75,9 @@ public class MainPage {
      */
     public boolean isNotificationPanelIsPresent() {
         boolean tempElement =
-            webElementOnPage.isElementOnPage(getUiMappingValue("MainPage.NotificationPanel"));
-            log.info("Notification panel is present: " + tempElement);
-            return tempElement;
+                webElementOnPage.isElementOnPage("MainPage.NotificationPanel");
+        log.info("Notification panel is present: " + tempElement);
+        return tempElement;
 
     }
 
@@ -87,10 +85,10 @@ public class MainPage {
      * method clicked on MainPage.Menu.Phones.Link item
      * @return boolean
      */
-    @Step("Clicking menu phones")
-    public boolean clickMenuPhones() {
+    @Step("Clicking menu smart phones, TV, electronic")
+    public boolean clickMenuSmartphonesTvElectronic() {
         boolean tempElement =
-                webElementOnPage.clickLink(getUiMappingValue("MainPage.Menu.Phones.Link"));
+                webElementOnPage.clickLink("MainPage.Menu.SmartPhonesTvElectronic.Link");
         log.info("Was opened menu item: MainPage.Menu.Phones.Link: " + tempElement);
         return tempElement;
     }
@@ -99,21 +97,11 @@ public class MainPage {
      * method clicked on MainPage.Menu.Smartphones.Link item
      * @return boolean
      */
-    @Step("Clicking menu smartphones")
-    public boolean clickMenuSmartphones() {
+    @Step("Clicking menu mobile phones")
+    public boolean clickMenuSmartPhones() {
         boolean tempElement =
-                webElementOnPage.clickButton(getUiMappingValue("MainPage.Menu.Smartphones.Link"));
+                webElementOnPage.clickLink("MainPage.Menu.SmartPhones.Link");
         log.info("Link Smartphones was clicked: " + tempElement);
-        return tempElement;
-    }
-
-    /**
-     * method move mouse on element
-     */
-    public boolean mouseOnElementSmartTvElectronic() {
-        boolean tempElement =
-                webElementOnPage.mouseOnElement(getUiMappingValue("MainPage.Menu.PhonesTvElectronic"));
-        log.info("Mouse moved on element MainPage.Menu.PhonesTvElectronic: " + tempElement);
         return tempElement;
     }
 
@@ -135,5 +123,17 @@ public class MainPage {
             log.error(e);
             return false;
         }
+    }
+
+    /**
+     * method clicks Menu button
+     * @return
+     */
+    @Step
+    public boolean clickMenuButton() {
+        boolean tempElement =
+                webElementOnPage.clickButton("MainPage.Menu.Button");
+        log.info("Menu button was clicked: " + tempElement);
+        return tempElement;
     }
 }

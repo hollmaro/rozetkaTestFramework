@@ -1,21 +1,14 @@
 package com.rozetka;
 
-import com.rozetka.libs.ConfigData;
 import com.rozetka.pages.MainPage;
 import com.rozetka.pages.PhonePage;
 import org.apache.log4j.Logger;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import ru.yandex.qatools.allure.annotations.Description;
-import ru.yandex.qatools.allure.annotations.Step;
 import ru.yandex.qatools.allure.annotations.Title;
 
 import java.net.MalformedURLException;
-
-import static com.rozetka.libs.ConfigData.getUiMappingValue;
-import static com.rozetka.libs.ConfigData.ui;
 
 /**
  * Created by roman on 3/3/17.
@@ -38,13 +31,14 @@ public class TestMain extends ParentTest {
         phonePage = new PhonePage(driver);
 
         mainPage.openMainPage();
-        //mainPage.typeTextInSearch("123qwe123qwe");
-        Assert.assertTrue(
+        /*Assert.assertTrue(
                 "Check is title correct! ", mainPage.getMainTitle().equals(driver.getTitle()));
         if (mainPage.isNotificationPanelIsPresent());
-            mainPage.clickOtkazatsaOtUvedomlienij();
-        mainPage.clickMenuPhones();
-        mainPage.clickMenuSmartphones();
+        mainPage.clickOtkazatsaOtUvedomlienij();*/
+
+        mainPage.clickMenuSmartphonesTvElectronic();
+        mainPage.clickMenuSmartPhones();
+
         phonePage.typeMaxPrice("6000");
         phonePage.selectPhoneSize4();
 

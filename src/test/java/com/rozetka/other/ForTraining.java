@@ -1,17 +1,22 @@
 package com.rozetka.other;
 
+import com.rozetka.libs.ConfigData;
 import com.rozetka.pages.MainPage;
+import org.omg.CORBA.TIMEOUT;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.net.MalformedURLException;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import static com.rozetka.libs.ConfigData.getUiMappingValue;
-import static com.rozetka.libs.ConfigData.ui;
+import static com.rozetka.libs.ConfigData.getValueFromFile;
 
 /**
  * Created by ROMAN on 05.03.2017.
@@ -29,13 +34,32 @@ public class ForTraining {
         WebDriver driver = new FirefoxDriver();
         MainPage mainPage;
         mainPage = new MainPage(driver);
-        String phones = "xpath(\".//*[@href='http://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/' and @class='f-menu-l-i-link f-menu-l-i-link-arrow sprite-side novisited']\")";
+
+
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        Actions actions = new Actions(driver);
+        driver.get("http://rozetka.com.ua/");
+
+        actions.moveToElement(driver.findElement(By.xpath(".//*[@name='fat_menu_link' and contains(text(),'Смартфоны, ТВ и электроника')]"))).click().build().perform();
+        actions.moveToElement(driver.findElement(By.xpath(".//*[contains(text(),' Смартфоны ')]"))).click().build().perform();
+
+        /*mainPage.openMainPage();
+        WebElement button = driver.findElement(ConfigData.ui("MainPage.Menu.Button"));
+        WebElement smartphones = driver.findElement(ConfigData.ui("MainPage.Menu.SmartPhones.Link"));
+        WebElement smartTvElectr = driver.findElement(ConfigData.ui("MainPage.Menu.SmartPhonesTvElectronic.Link"));
+
+        Actions actions = new Actions(driver);*/
 
 
 
-        mainPage.openMainPage();
-        WebElement b = driver.findElement(ui("MainPage.Search.Input"));
-        mainPage.clickMenuPhones();
+        //smartTvElectr.click();
+        //actions.moveToElement(smartTvElectr).click().perform();
+        //wait.until(ExpectedConditions.elementToBeClickable(smartphones));
+
+        //actions.moveToElement(smartphones).click().build().perform();
+
+
 
         /*boolean te = b.isEnabled();
         System.out.println(te);
@@ -46,15 +70,43 @@ public class ForTraining {
         System.out.println(te);
                     bb.click();*/
         //bb.click();
-        //mainPage.clickMenuSmartphones();
+        //mainPage.clickMenuSmartphonesTvElectronic();
         // b = phones.equals(ui("MainPage.Menu.PhonesTvElectronic"));
-        System.out.println(b);
-        System.out.println(phones);
-        System.out.println(getUiMappingValue("MainPage.Menu.PhonesTvElectronic"));
-        System.out.println(ui("MainPage.Menu.PhonesTvElectronic"));
+        //System.out.println(b);
+        //System.out.println(phones);
+        System.out.println(getUiMappingValue("MainPage.Menu.SmartPhonesTvElectronic.Link"));
+        System.out.println(ui("MainPage.Menu.SmartPhonesTvElectronic.Link"));
+
     }
+    public static By ui(String key) {
+        try {
+            // Get WebElement's locator from UI mapping file and divide it to finding method and target
+            String[] partsOfLocator = getValueFromFile(key, ConfigData.uiMappingFile).split("\"");
+            String findMethod = partsOfLocator[0].substring(0, partsOfLocator[0].length() - 1);
+            String target = partsOfLocator[1];
+            System.out.println("target" + target);
+            System.out.println("partsOfLocator" + partsOfLocator);
 
-
-
-
+            // Return By class with appropriate method and target
+            if (findMethod.equals("id")) {
+                return By.id(target);
+            } else {
+                if (findMethod.equals("xpath")) {
+                    return By.xpath(target);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }
+
+
+
+
+
+
+
+
+

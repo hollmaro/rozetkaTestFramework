@@ -26,13 +26,6 @@ public class PhonePage {
         webElementOnPage = new WebElementOnPage(driver);
 
     }
-    public PhonePage(){
-        this.driver = driver;
-        log = Logger.getLogger(getClass());
-        webElementOnPage = new WebElementOnPage(driver);
-
-    }
-
     /**
      * method typing max price
      * @param maxPrice
@@ -42,7 +35,7 @@ public class PhonePage {
     public boolean typeMaxPrice(String maxPrice) {
         boolean tempElement =
                 webElementOnPage.typeTextIntoInput(maxPrice, "PhonesPage.PriceMax.Input");
-        log.info("Max price: " + maxPrice + "was typed: " + tempElement);
+        log.info("Max price: " + maxPrice + " was typed: " + tempElement);
         return tempElement;
     }
 
@@ -54,7 +47,7 @@ public class PhonePage {
     public boolean selectPhoneSize4() {
         boolean tempElement =
                 webElementOnPage.clickLink("PhonesPage.ScreenSize.CheckBox.Do4");
-        log.info("Was checked");
+        log.info("Was checked screen size 4 "+ tempElement);
         return tempElement;
     }
 }
