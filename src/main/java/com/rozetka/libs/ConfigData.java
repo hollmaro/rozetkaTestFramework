@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.lang.reflect.Constructor;
 import java.util.Properties;
 
@@ -20,16 +22,17 @@ public class ConfigData {
     /*
      *  Return value from .properties file
      */
-    public static String getValueFromFile(String key, String fileName) throws IOException {
-        Properties p = new Properties();
-        // Create stream for reading from file
-        FileInputStream cfg = new FileInputStream(fileName);
-        // Load Properties from input stream
-        p.load(cfg);
-        cfg.close();
+    public static String getValueFromFile(String key, String fileName)throws IOException{
+            Properties p = new Properties();
+        InputStream inputStream;
+            // Create stream for reading from file
+            FileInputStream cfg = new FileInputStream(fileName);
+            // Load Properties from input stream
+            p.load(cfg);
+            cfg.close();
 
-        // Return value for the property
-        return(p.getProperty(key));
+            // Return value for the property
+            return(p.getProperty(key));
     }
 
 
@@ -38,9 +41,15 @@ public class ConfigData {
      *  Note, please, that returned value is String.
      *  We should take care of value's type by himself when will use config data value in the test.
      */
-    public static String getUiMappingValue(String key) throws IOException {
-    	
-        return(getValueFromFile(key, uiMappingFile));
+    public static String getUiMappingValue(String key){
+    	try {
+            return(getValueFromFile(key, uiMappingFile));
+        }catch (IOException e){
+            log.error("Can't find value by key: " + key +" from UIMapping.properties file - " + e);
+            return e.toString();
+        }
+
+
     }
 
 
@@ -49,9 +58,13 @@ public class ConfigData {
     *  Note, please, that returned value is String.
     *  We should take care of value's type by himself when will use config data value in the test.
     */
-    public static String getCfgValue(String key) throws IOException {
-
-        return(getValueFromFile(key, cfgFile).trim());
+    public static String getCfgValue(String key){
+        try {
+            return (getValueFromFile(key, cfgFile).trim());
+        }catch (IOException e){
+        log.error("Can't find value by key: " + key +" from config.properties file - " + e);
+        return e.toString();
+    }
     }
 
 

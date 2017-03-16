@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.interactions.*;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -25,7 +25,7 @@ public class WebElementOnPage {
 	public WebElementOnPage(WebDriver extDriver){
 		this.driver = extDriver;
 		log = Logger.getLogger(getClass());
-		wait = new WebDriverWait(driver, 30);
+		//wait = new WebDriverWait(driver, 30);
 	}
 	
 	/**
@@ -35,9 +35,11 @@ public class WebElementOnPage {
 	public void openBrowserAndUrl(String url) {
 		try {
 			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+			driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+			driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			driver.get(url);
-			log.info("Browser and url" + url + "was opened!");
+			log.info("Browser and url " + url + " was opened!");
 			
 			
 		} catch (Exception e) {
@@ -78,9 +80,11 @@ public class WebElementOnPage {
 	 * Method clear input and typing text in input
 	 * @param text
 	 * @param keyInputLocator
-	 * @return result of typing
+	 * @return boolean
 	 */
 	public boolean typeTextIntoInput(String text, String keyInputLocator) {
+		/*wait.until(ExpectedConditions.elementToBeClickable(
+				driver.findElement(ui(keyInputLocator))));*/
 		try {
 			WebElement input;
 			input = driver.findElement(ui(keyInputLocator));
@@ -96,9 +100,11 @@ public class WebElementOnPage {
 	/**
 	 * Method click link by keyLinkLocator
 	 * @param keyLinckLocator
-	 * @return
+	 * @return boolean
 	 */
 	public boolean clickLink(String keyLinckLocator) {
+		/*wait.until(ExpectedConditions.elementToBeClickable(
+				driver.findElement(ui(keyLinckLocator))));*/
 		try {
 			WebElement link;
 			link = driver.findElement(ui(keyLinckLocator));
@@ -113,12 +119,12 @@ public class WebElementOnPage {
 	/**
 	 * Method clicking on button by keyButtonLocator
 	 * @param keyButtonLocator
-	 * @return
+	 * @return boolean
 	 */
 	public boolean clickButton(String keyButtonLocator) {
 		try {
-			wait.until(ExpectedConditions.elementToBeClickable(
-					driver.findElement(ui(keyButtonLocator))));
+			/*wait.until(ExpectedConditions.elementToBeClickable(
+					driver.findElement(ui(keyButtonLocator))));*/
 			WebElement button = driver.findElement(ui(keyButtonLocator));
 			button.click();
 			log.info("Button " + button + " was clicked!");
@@ -131,9 +137,11 @@ public class WebElementOnPage {
 	/**
 	 * Method clicking on radioButton by key from UIMaping
 	 * @param keyRadioButtonLocator
-	 * @return
+	 * @return boolean
 	 */
 	public boolean clickOnRadioButton(String keyRadioButtonLocator) {
+		/*wait.until(ExpectedConditions.elementToBeClickable(
+				driver.findElement(ui(keyRadioButtonLocator))));*/
 		try {
 			WebElement radioButton = driver.findElement(ui(keyRadioButtonLocator));
 			radioButton.click();
@@ -148,12 +156,12 @@ public class WebElementOnPage {
 	 * Method select text from DropDown
 	 * @param keyLocatorMainDD
 	 * @param itemText
-	 * @return
+	 * @return boolean
 	 */
 	public boolean selectItemFromDDByText(String keyLocatorMainDD, String itemText) {
 		try {
-			wait.until(ExpectedConditions.elementToBeClickable(
-					driver.findElement(ui(keyLocatorMainDD))));
+			/*wait.until(ExpectedConditions.elementToBeClickable(
+					driver.findElement(ui(keyLocatorMainDD))));*/
 			WebElement mainDD = driver.findElement(ui(keyLocatorMainDD));
 			Select itemsFromDD = new Select(mainDD);
 			itemsFromDD.selectByVisibleText(itemText);
@@ -168,9 +176,11 @@ public class WebElementOnPage {
 	 * Method sets state in CheckBox
 	 * @param keyCheckLocator
 	 * @param stateFromTC (should be exactly "Check" or "UnChecked")
-	 * @return
+	 * @return boolean
 	 */
 	public boolean setActionIncheckBox(String keyCheckLocator,String stateFromTC) {
+		/*wait.until(ExpectedConditions.elementToBeClickable(
+				driver.findElement(ui(keyCheckLocator))));*/
 		try {
 			WebElement checkBox;
 			checkBox = driver.findElement(ui(keyCheckLocator));
@@ -198,7 +208,7 @@ public class WebElementOnPage {
 	/**
 	 * Method checks presents of element on page
 	 * @param keyElementLocator
-	 * @return
+	 * @return boolean
 	 */
 	public boolean isElementOnPage(String keyElementLocator){
 		try {
@@ -220,13 +230,13 @@ public class WebElementOnPage {
 	}
 	/**
 	 * Method cheks is element on page by xpath locator
-	 * @param elementLocator
-	 * @return
+	 * @param xpathElementLocator
+	 * @return boolean
 	 */
-	public boolean isAnyElementOnPage(String elementLocator){
+	public boolean isAnyElementOnPage(String xpathElementLocator){
 		try {
 			WebElement tempElement;
-			tempElement = driver.findElement(By.xpath(elementLocator));
+			tempElement = driver.findElement(By.xpath(xpathElementLocator));
 			if (tempElement.isEnabled() && tempElement.isDisplayed()){
 				log.info("Element is present on page");
 				return true;
@@ -244,7 +254,7 @@ public class WebElementOnPage {
 	/**
 	 * Method cheks is element has empty value by key from UIMapping.properties file
 	 * @param keyElementLocator
-	 * @return
+	 * @return boolean
 	 */
 	public boolean isElementHasEmptyValue(String keyElementLocator){
 		try {
@@ -266,7 +276,54 @@ public class WebElementOnPage {
 		
 		
 	}
-	
+
+	/**
+	 * method move mouse on element
+	 * @param keyElementLocator
+	 * @return boolean
+	 */
+	public boolean mouseOnElement(String keyElementLocator) {
+		/*wait.until(ExpectedConditions.elementToBeSelected(
+				driver.findElement(ui(keyElementLocator))));*/
+		try {
+			Actions action = new Actions(driver);
+			WebElement tempElement =
+					driver.findElement(ui(keyElementLocator));
+			action.moveToElement(tempElement);
+			action.build().perform();
+			log.info("Mouse moved on element: " + keyElementLocator);
+			return true;
+		}catch (Exception e){
+			log.error(e);
+			return false;
+		}
+
+
+	}
+
+	/**
+	 * method move mouse on element and click on it
+	 * @param keyElementLocator
+	 * @return boolean
+	 */
+	public boolean mouseOnElementAndClick(String keyElementLocator) {
+		/*wait.until(ExpectedConditions.elementToBeSelected(
+				driver.findElement(ui(keyElementLocator))));*/
+		try {
+			Actions actions = new Actions(driver);
+			WebElement tempElement =
+					driver.findElement(ui(keyElementLocator));
+			actions.moveToElement(tempElement).click().build().perform();
+			//actions.build().perform();
+			log.info("Mouse moved on element " + keyElementLocator + " and clicked!");
+			return true;
+		}catch (Exception e){
+			log.error(e);
+			return false;
+		}
+
+
+	}
 }
 
 

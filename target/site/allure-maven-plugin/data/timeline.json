@@ -1,0 +1,42 @@
+{
+  "hosts" : [ {
+    "title" : "ROMAN-ПК",
+    "threads" : [ {
+      "title" : "12780@ROMAN-ПК.main(1)",
+      "testCases" : [ {
+        "uid" : "a38a0cfd384e6e22",
+        "name" : "initializationError",
+        "title" : "Initialization error",
+        "time" : {
+          "start" : 1488769169125,
+          "stop" : 1488769169572,
+          "duration" : 447
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "239f04e50d3fba7f",
+        "name" : "testOpeningMainPage[0]",
+        "title" : "First test!",
+        "time" : {
+          "start" : 1488769194508,
+          "stop" : 1488769201272,
+          "duration" : 6764
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "aaf3994f63c5e6d3",
+        "name" : "testApp",
+        "title" : "Test app",
+        "time" : {
+          "start" : 1488769167382,
+          "stop" : 1488769167393,
+          "duration" : 11
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
