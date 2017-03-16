@@ -1,0 +1,140 @@
+{
+  "uid" : "7e6ec9b5bad2b85e",
+  "name" : "testOpeningMainPage[0]",
+  "title" : "First test!",
+  "time" : {
+    "start" : 1489706658600,
+    "stop" : 1489706687295,
+    "duration" : 28695
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Testing smart phone menu ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "de3395105f3376f4",
+    "name" : "com.rozetka.TestMain",
+    "title" : "Test main"
+  },
+  "steps" : [ {
+    "name" : "openMainPage",
+    "title" : "Opening main page ROZETKA",
+    "time" : {
+      "start" : 1489706658838,
+      "stop" : 1489706666038,
+      "duration" : 7200
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getMainTitle",
+    "title" : "Is title corect",
+    "time" : {
+      "start" : 1489706666049,
+      "stop" : 1489706666049,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickMenuSmartphonesTvElectronic",
+    "title" : "Clicking menu smart phones, TV, electronic",
+    "time" : {
+      "start" : 1489706666585,
+      "stop" : 1489706666758,
+      "duration" : 173
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickMenuSmartPhones",
+    "title" : "Clicking menu mobile phones",
+    "time" : {
+      "start" : 1489706666769,
+      "stop" : 1489706667483,
+      "duration" : 714
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "typeMaxPrice[6000]",
+    "title" : "Typing max price : 6000",
+    "time" : {
+      "start" : 1489706667501,
+      "stop" : 1489706677868,
+      "duration" : 10367
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickPriceOkButton",
+    "title" : "Click button \"OK\" for price filter",
+    "time" : {
+      "start" : 1489706677875,
+      "stop" : 1489706687030,
+      "duration" : 9155
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.rozetka.TestMain"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "linux-ro"
+  }, {
+    "name" : "thread",
+    "value" : "18909@linux-ro.main(1)"
+  } ],
+  "parameters" : [ ]
+}

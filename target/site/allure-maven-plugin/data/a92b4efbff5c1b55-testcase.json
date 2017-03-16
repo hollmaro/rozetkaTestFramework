@@ -1,0 +1,47 @@
+{
+  "uid" : "a92b4efbff5c1b55",
+  "name" : "testApp",
+  "title" : "Test app",
+  "time" : {
+    "start" : 1489706653359,
+    "stop" : 1489706653384,
+    "duration" : 25
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1e0084c8d8b82082",
+    "name" : "com.rozetka.other.AppTest",
+    "title" : "App test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.rozetka.other.AppTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "linux-ro"
+  }, {
+    "name" : "thread",
+    "value" : "18909@linux-ro.main(1)"
+  } ],
+  "parameters" : [ ]
+}

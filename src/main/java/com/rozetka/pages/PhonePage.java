@@ -43,11 +43,11 @@ public class PhonePage {
      * method select 4" screen checkbox
      * @return
      */
-    @Step("select 4\" screen checkbox")
-    public boolean selectPhoneSize4() {
+    @Step("Click button \"OK\" for price filter")
+    public boolean clickPriceOkButton() {
         boolean tempElement =
-                webElementOnPage.clickLink("PhonesPage.ScreenSize.CheckBox.Do4");
-        log.info("Was checked screen size 4 "+ tempElement);
+                webElementOnPage.clickLink("PhonesPage.PriceFilter.Submit.Button");
+        log.info("Button \"OK\" for price filter was clicked: " + tempElement);
         return tempElement;
     }
 }

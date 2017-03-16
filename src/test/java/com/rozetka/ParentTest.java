@@ -31,18 +31,19 @@ public class ParentTest {
    return Arrays.asList(new String[][] { 
     //{ "fireFoxString" }
     // ,
-    //{ "chromeString" }
+    { "chromeString" }
     //,
-    { "ieString" }
+    //{ "ieString" }
 
     });
   }
 
   
   public ParentTest(String browser) throws MalformedURLException {
-      System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
+      //-------------Configuration driver path for WIN-----------------
+      /*System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
       System.setProperty("webdriver.ie.driver", "C:\\IEDriverServer.exe");
-      System.setProperty("webdriver.edge.driver", "C:\\MicrosoftWebDriver.exe");
+      System.setProperty("webdriver.edge.driver", "C:\\MicrosoftWebDriver.exe");*/
    if (browser.equals("fireFoxString")) {
     this.driver = new FirefoxDriver();
       /* DesiredCapabilities capability = DesiredCapabilities.firefox();

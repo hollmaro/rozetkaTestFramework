@@ -88,7 +88,7 @@ public class MainPage {
     @Step("Clicking menu smart phones, TV, electronic")
     public boolean clickMenuSmartphonesTvElectronic() {
         boolean tempElement =
-                webElementOnPage.clickLink("MainPage.Menu.SmartPhonesTvElectronic.Link");
+                webElementOnPage.mouseOnElement("MainPage.Menu.SmartPhonesTvElectronic.Link");
         log.info("Was opened menu item: MainPage.Menu.Phones.Link: " + tempElement);
         return tempElement;
     }
@@ -100,7 +100,7 @@ public class MainPage {
     @Step("Clicking menu mobile phones")
     public boolean clickMenuSmartPhones() {
         boolean tempElement =
-                webElementOnPage.clickLink("MainPage.Menu.SmartPhones.Link");
+                webElementOnPage.mouseOnElementAndClick("MainPage.Menu.SmartPhones.Link");
         log.info("Link Smartphones was clicked: " + tempElement);
         return tempElement;
     }

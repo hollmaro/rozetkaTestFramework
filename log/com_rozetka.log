@@ -870,3 +870,118 @@ Session ID: f28ae168-42f4-45ad-81e7-36ec7cfab9c9
 2017-13-03 20:41:44   INFO [com.rozetka.pages.PhonePage] : Was checked screen size 4 true
 2017-13-03 20:41:51   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-13-03 20:41:51   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-17-03 00:22:37   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-17-03 00:22:37   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-17-03 00:22:46   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 00:22:46   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 00:22:46   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (91d3aa7453e63a84314a9fcd9646b82c)] -> xpath: .//*[@href='http://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/' and @name='fat_menu_link']] was clicked!
+2017-17-03 00:22:46   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-17-03 00:23:03  ERROR [com.rozetka.libs.WebElementOnPage] : java.lang.NullPointerException
+2017-17-03 00:23:03   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: false
+2017-17-03 00:23:04  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455506 (18f6627e265f442aeec9b6661a49fe819aeeea1f),platform=Linux 3.19.0-32-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 625 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'linux-ro', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-32-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455506 (18f6627e265f442aeec9b6661a49fe819aeeea1f), userDataDir=/tmp/.org.chromium.Chromium.8hlu0P}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 91d3aa7453e63a84314a9fcd9646b82c
+*** Element info: {Using=id, value=price[max]}
+2017-17-03 00:23:04   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: false
+2017-17-03 00:23:04  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455506 (18f6627e265f442aeec9b6661a49fe819aeeea1f),platform=Linux 3.19.0-32-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'linux-ro', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-32-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455506 (18f6627e265f442aeec9b6661a49fe819aeeea1f), userDataDir=/tmp/.org.chromium.Chromium.8hlu0P}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 91d3aa7453e63a84314a9fcd9646b82c
+*** Element info: {Using=xpath, value=.//*[@href='http://rozetka.com.ua/mobile-phones/c80003/preset=smartfon;23777=25315/']}
+2017-17-03 00:23:04   INFO [com.rozetka.pages.PhonePage] : Was checked screen size 4 false
+2017-17-03 00:23:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-17-03 00:23:04   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-17-03 00:31:36   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 00:31:36   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 00:33:45   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 00:33:45   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 00:37:10   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 00:37:10   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 00:40:29   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 00:40:29   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 00:41:51   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 00:41:51   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 00:43:40   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 00:43:40   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 01:00:57   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 01:00:57   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 01:01:51   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 01:01:51   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 01:09:19   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-17-03 01:09:19   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-17-03 01:09:30   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 01:09:30   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 01:09:32   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-17-03 01:09:32   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-17-03 01:09:33   INFO [com.rozetka.libs.WebElementOnPage] : Button [[FirefoxDriver: firefox on LINUX (373ea6f3-867d-4822-a9b4-90732b188cd1)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-17-03 01:09:33   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-17-03 01:09:33  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.UnsupportedCommandException: POST /session/373ea6f3-867d-4822-a9b4-90732b188cd1/moveto did not match a known command
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'linux-ro', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-32-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170127092049, version=, platform=LINUX, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=18191, browserVersion=51.0.1, platformVersion=3.19.0-32-generic, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=linux}]
+Session ID: 373ea6f3-867d-4822-a9b4-90732b188cd1
+2017-17-03 01:09:33   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: false
+2017-17-03 01:09:34   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-17-03 01:09:34   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-17-03 01:11:10   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-17-03 01:11:10   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-17-03 01:11:18   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 01:11:18   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 01:11:18   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-17-03 01:11:18   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-17-03 01:11:19   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (7d990b82cc45ad8c596ae63817e71e01)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-17-03 01:11:19   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-17-03 01:11:19   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-17-03 01:11:19   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-17-03 01:11:20   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-17-03 01:11:20   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-17-03 01:11:31   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-17-03 01:11:31   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-17-03 01:11:46  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@href='http://rozetka.com.ua/mobile-phones/c80003/preset=smartfon;23777=25315/']"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.28.455506 (18f6627e265f442aeec9b6661a49fe819aeeea1f),platform=Linux 3.19.0-32-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'linux-ro', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.19.0-32-generic', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455506 (18f6627e265f442aeec9b6661a49fe819aeeea1f), userDataDir=/tmp/.org.chromium.Chromium.UXpfcL}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 7d990b82cc45ad8c596ae63817e71e01
+*** Element info: {Using=xpath, value=.//*[@href='http://rozetka.com.ua/mobile-phones/c80003/preset=smartfon;23777=25315/']}
+2017-17-03 01:11:46   INFO [com.rozetka.pages.PhonePage] : Was checked screen size 4 false
+2017-17-03 01:11:46   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-17-03 01:11:46   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-17-03 01:24:13   INFO [com.rozetka.other.AppTest] : Everything ok!!!
+2017-17-03 01:24:13   INFO [com.rozetka.other.AppTest] : Everything ok!!!
+2017-17-03 01:24:18   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-17-03 01:24:18   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-17-03 01:24:26   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-17-03 01:24:26   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-17-03 01:24:26   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-17-03 01:24:26   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-17-03 01:24:26   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (1a9903fd9e1dfe14612c857cf23f15b0)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-17-03 01:24:26   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-17-03 01:24:26   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-17-03 01:24:26   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-17-03 01:24:27   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-17-03 01:24:27   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-17-03 01:24:37   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-17-03 01:24:37   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-17-03 01:24:47   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (1a9903fd9e1dfe14612c857cf23f15b0)] -> id: submitprice] was clicked!
+2017-17-03 01:24:47   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
+2017-17-03 01:24:47   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-17-03 01:24:47   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua

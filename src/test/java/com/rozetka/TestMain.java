@@ -4,6 +4,7 @@ import com.rozetka.pages.MainPage;
 import com.rozetka.pages.PhonePage;
 import org.apache.log4j.Logger;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Test;
 import ru.yandex.qatools.allure.annotations.Description;
 import ru.yandex.qatools.allure.annotations.Title;
@@ -31,16 +32,19 @@ public class TestMain extends ParentTest {
         phonePage = new PhonePage(driver);
 
         mainPage.openMainPage();
-        /*Assert.assertTrue(
+
+        Assert.assertTrue(
                 "Check is title correct! ", mainPage.getMainTitle().equals(driver.getTitle()));
-        if (mainPage.isNotificationPanelIsPresent());
-        mainPage.clickOtkazatsaOtUvedomlienij();*/
-
-        mainPage.clickMenuSmartphonesTvElectronic();
-        mainPage.clickMenuSmartPhones();
-
-        phonePage.typeMaxPrice("6000");
-        phonePage.selectPhoneSize4();
+        if (mainPage.isNotificationPanelIsPresent()) {
+            mainPage.clickOtkazatsaOtUvedomlienij();
+        }
+        Assert.assertTrue(
+                "Check steps",
+                mainPage.clickMenuSmartphonesTvElectronic() &&
+                        mainPage.clickMenuSmartPhones() &&
+                        phonePage.typeMaxPrice("6000") &&
+                        phonePage.clickPriceOkButton()
+        );
 
 
 

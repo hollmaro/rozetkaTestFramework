@@ -1,77 +1,17 @@
 {
   "time" : {
-    "start" : 1488769167382,
-    "stop" : 1488769201272,
-    "duration" : 33890
+    "start" : 1489706653359,
+    "stop" : 1489706687295,
+    "duration" : 33936
   },
   "testSuites" : [ {
-    "uid" : "31312300cc0793cb",
-    "name" : "com.rozetka.ParentTest",
-    "title" : "Parent test",
+    "uid" : "de3395105f3376f4",
+    "name" : "com.rozetka.TestMain",
+    "title" : "Test main",
     "time" : {
-      "start" : 1488769169125,
-      "stop" : 1488769169572,
-      "duration" : 447
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 1
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "a38a0cfd384e6e22",
-      "name" : "initializationError",
-      "title" : "Initialization error",
-      "time" : {
-        "start" : 1488769169125,
-        "stop" : 1488769169572,
-        "duration" : 447
-      },
-      "severity" : "NORMAL",
-      "status" : "BROKEN"
-    } ]
-  }, {
-    "uid" : "ee2a7b6872eb971d",
-    "name" : "com.rozetka.Test1MainPageOpening",
-    "title" : "Test 1 main page opening",
-    "time" : {
-      "start" : 1488769194508,
-      "stop" : 1488769201272,
-      "duration" : 6764
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 1
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "239f04e50d3fba7f",
-      "name" : "testOpeningMainPage[0]",
-      "title" : "First test!",
-      "time" : {
-        "start" : 1488769194508,
-        "stop" : 1488769201272,
-        "duration" : 6764
-      },
-      "severity" : "NORMAL",
-      "status" : "BROKEN"
-    } ]
-  }, {
-    "uid" : "32300e407ae94fa1",
-    "name" : "com.rozetka.AppTest",
-    "title" : "App test",
-    "time" : {
-      "start" : 1488769167382,
-      "stop" : 1488769167393,
-      "duration" : 11
+      "start" : 1489706658600,
+      "stop" : 1489706687295,
+      "duration" : 28695
     },
     "statistic" : {
       "total" : 1,
@@ -83,13 +23,73 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "aaf3994f63c5e6d3",
+      "uid" : "7e6ec9b5bad2b85e",
+      "name" : "testOpeningMainPage[0]",
+      "title" : "First test!",
+      "time" : {
+        "start" : 1489706658600,
+        "stop" : 1489706687295,
+        "duration" : 28695
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "7567a39f15b72fec",
+    "name" : "com.rozetka.ParentTest",
+    "title" : "Parent test",
+    "time" : {
+      "start" : 1489706654025,
+      "stop" : 1489706654080,
+      "duration" : 55
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "964471b5874a6471",
+      "name" : "initializationError",
+      "title" : "Initialization error",
+      "time" : {
+        "start" : 1489706654025,
+        "stop" : 1489706654080,
+        "duration" : 55
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "uid" : "1e0084c8d8b82082",
+    "name" : "com.rozetka.other.AppTest",
+    "title" : "App test",
+    "time" : {
+      "start" : 1489706653359,
+      "stop" : 1489706653384,
+      "duration" : 25
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a92b4efbff5c1b55",
       "name" : "testApp",
       "title" : "Test app",
       "time" : {
-        "start" : 1488769167382,
-        "stop" : 1488769167393,
-        "duration" : 11
+        "start" : 1489706653359,
+        "stop" : 1489706653384,
+        "duration" : 25
       },
       "severity" : "NORMAL",
       "status" : "PASSED"

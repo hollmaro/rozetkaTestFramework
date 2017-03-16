@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,6 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 import static com.rozetka.libs.ConfigData.getUiMappingValue;
 import static com.rozetka.libs.ConfigData.getValueFromFile;
+import static com.rozetka.libs.ConfigData.ui;
 
 /**
  * Created by ROMAN on 05.03.2017.
@@ -27,11 +29,12 @@ public class ForTraining {
 
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
+        //-------------Configure drivers for WIN-----------------------------------
+        /*System.setProperty("webdriver.gecko.driver", "C:\\geckodriver.exe");
         System.setProperty("webdriver.ie.driver", "C:\\IEDriverServer.exe");
-        System.setProperty("webdriver.edge.driver", "C:\\MicrosoftWebDriver.exe");
+        System.setProperty("webdriver.edge.driver", "C:\\MicrosoftWebDriver.exe");*/
 
-        WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new ChromeDriver();
         MainPage mainPage;
         mainPage = new MainPage(driver);
 
@@ -39,25 +42,28 @@ public class ForTraining {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         Actions actions = new Actions(driver);
-        driver.get("http://rozetka.com.ua/");
 
-        actions.moveToElement(driver.findElement(By.xpath(".//*[@name='fat_menu_link' and contains(text(),'Смартфоны, ТВ и электроника')]"))).click().build().perform();
-        actions.moveToElement(driver.findElement(By.xpath(".//*[contains(text(),' Смартфоны ')]"))).click().build().perform();
 
-        /*mainPage.openMainPage();
-        WebElement button = driver.findElement(ConfigData.ui("MainPage.Menu.Button"));
-        WebElement smartphones = driver.findElement(ConfigData.ui("MainPage.Menu.SmartPhones.Link"));
+
+
+        mainPage.openMainPage();
+        if(driver.findElement(ConfigData.ui("MainPage.NotificationPanel")).isDisplayed())
+           driver.findElement(ConfigData.ui("MainPage.NotificationPanel.Cancel.Button")).click();
+
+        //WebElement button = driver.findElement(ConfigData.ui("MainPage.Menu.Button"));
         WebElement smartTvElectr = driver.findElement(ConfigData.ui("MainPage.Menu.SmartPhonesTvElectronic.Link"));
 
-        Actions actions = new Actions(driver);*/
+
 
 
 
         //smartTvElectr.click();
-        //actions.moveToElement(smartTvElectr).click().perform();
+        actions.moveToElement(smartTvElectr).build().perform();
+        WebElement smartphones = driver.findElement(ConfigData.ui("MainPage.Menu.SmartPhones.Link"));
+        System.out.println(smartphones.isDisplayed());
         //wait.until(ExpectedConditions.elementToBeClickable(smartphones));
-
-        //actions.moveToElement(smartphones).click().build().perform();
+        //smartphones.click();
+        actions.moveToElement(smartphones).click().build().perform();
 
 
 

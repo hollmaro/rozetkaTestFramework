@@ -314,7 +314,6 @@ public class WebElementOnPage {
 			WebElement tempElement =
 					driver.findElement(ui(keyElementLocator));
 			actions.moveToElement(tempElement).click().build().perform();
-			//actions.build().perform();
 			log.info("Mouse moved on element " + keyElementLocator + " and clicked!");
 			return true;
 		}catch (Exception e){
