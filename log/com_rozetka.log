@@ -985,3 +985,102 @@ Session ID: 7d990b82cc45ad8c596ae63817e71e01
 2017-17-03 01:24:47   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
 2017-17-03 01:24:47   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-17-03 01:24:47   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-19-03 23:17:14   INFO [com.rozetka.other.AppTest] : Everything ok!!!
+2017-19-03 23:17:14   INFO [com.rozetka.other.AppTest] : Everything ok!!!
+2017-19-03 23:24:41   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-19-03 23:24:41   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-19-03 23:24:49   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-19-03 23:24:49   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-19-03 23:24:50   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-19-03 23:24:50   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-19-03 23:24:50   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (f607b85fcc3c07a9397cdc7ac7eb861f)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-19-03 23:24:50   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-19-03 23:24:50   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-19-03 23:24:50   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-19-03 23:24:51   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-19-03 23:24:51   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-19-03 23:25:03   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-19-03 23:25:03   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-19-03 23:25:17   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (f607b85fcc3c07a9397cdc7ac7eb861f)] -> id: submitprice] was clicked!
+2017-19-03 23:25:17   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
+2017-19-03 23:25:18   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
+2017-19-03 23:25:18   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-19-03 23:25:18   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-22-03 01:39:55   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-22-03 01:39:55   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-22-03 01:40:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-22-03 01:40:04   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-22-03 01:40:04   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-22-03 01:40:04   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-22-03 01:40:04   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (fce26685ef2465d4750c9731509394f4)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-22-03 01:40:04   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-22-03 01:40:05   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-22-03 01:40:05   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-22-03 01:40:05   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-22-03 01:40:05   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-22-03 01:40:17   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-22-03 01:40:17   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-22-03 01:40:30   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (fce26685ef2465d4750c9731509394f4)] -> id: submitprice] was clicked!
+2017-22-03 01:40:30   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
+2017-22-03 01:40:30   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
+2017-22-03 01:40:30   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-22-03 01:40:30   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-22-03 01:47:06   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-22-03 01:47:06   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-22-03 01:47:17   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-22-03 01:47:17   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-22-03 01:47:17   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-22-03 01:47:17   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-22-03 01:47:17   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (6f34a69219e4643099c8ae80e0493243)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-22-03 01:47:17   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-22-03 01:47:18   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-22-03 01:47:18   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-22-03 01:47:18   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-22-03 01:47:18   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-22-03 01:47:31   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-22-03 01:47:31   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-22-03 01:47:41   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (6f34a69219e4643099c8ae80e0493243)] -> id: submitprice] was clicked!
+2017-22-03 01:47:41   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
+2017-22-03 01:47:41   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
+2017-22-03 01:47:41   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-22-03 01:47:41   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-22-03 01:53:46   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-22-03 01:53:46   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-22-03 01:53:59   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-22-03 01:53:59   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-22-03 01:53:59   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-22-03 01:53:59   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-22-03 01:54:00   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (af285040bfe26b796859f8ce60821873)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-22-03 01:54:00   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-22-03 01:54:00   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-22-03 01:54:00   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-22-03 01:54:01   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-22-03 01:54:01   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-22-03 01:54:12   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-22-03 01:54:12   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-22-03 01:54:22   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (af285040bfe26b796859f8ce60821873)] -> id: submitprice] was clicked!
+2017-22-03 01:54:22   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
+2017-22-03 01:54:22   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
+2017-22-03 01:54:22   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-22-03 01:54:22   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-22-03 02:00:30   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-22-03 02:00:30   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-22-03 02:00:38   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-22-03 02:00:38   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-22-03 02:00:38   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-22-03 02:00:38   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-22-03 02:00:38   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (7aa77c6f1910d12773bf135eb860e051)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-22-03 02:00:38   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-22-03 02:00:39   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-22-03 02:00:39   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-22-03 02:00:39   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-22-03 02:00:39   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-22-03 02:00:51   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-22-03 02:00:51   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-22-03 02:01:01   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (7aa77c6f1910d12773bf135eb860e051)] -> id: submitprice] was clicked!
+2017-22-03 02:01:01   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
+2017-22-03 02:01:01   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
+2017-22-03 02:01:01  ERROR [com.rozetka.pages.PhonePage] : The price 2999 higher than 6000
+2017-22-03 02:01:01   INFO [com.rozetka.pages.PhonePage] : Prise is lower than 6000 : true
+2017-22-03 02:01:01   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-22-03 02:01:01   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua

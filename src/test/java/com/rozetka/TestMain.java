@@ -1,5 +1,6 @@
 package com.rozetka;
 
+import com.rozetka.libs.ParentTest;
 import com.rozetka.pages.MainPage;
 import com.rozetka.pages.PhonePage;
 import org.apache.log4j.Logger;
@@ -44,6 +45,9 @@ public class TestMain extends ParentTest {
                         mainPage.clickMenuSmartPhones() &&
                         phonePage.typeMaxPrice("6000") &&
                         phonePage.clickPriceOkButton()
+        );
+        Assert.assertTrue("Check if price is lower than 6000 uah",
+                phonePage.isMainPriceLowerThan(6000)
         );
 
 

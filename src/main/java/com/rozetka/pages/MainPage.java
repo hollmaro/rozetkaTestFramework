@@ -73,6 +73,7 @@ public class MainPage {
      * method checks is notafication panel is on the page
      * @return boolean
      */
+    @Step("Checks is notafication panel is on the page")
     public boolean isNotificationPanelIsPresent() {
         boolean tempElement =
                 webElementOnPage.isElementOnPage("MainPage.NotificationPanel");
@@ -136,4 +137,6 @@ public class MainPage {
         log.info("Menu button was clicked: " + tempElement);
         return tempElement;
     }
+
+
 }

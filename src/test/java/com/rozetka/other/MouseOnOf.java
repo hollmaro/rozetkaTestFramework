@@ -11,16 +11,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  */
 public class MouseOnOf {
     public static void main(String[] args) {
-        WebDriver driver = new FirefoxDriver();
-        WebElementOnPage webElementOnPage = new WebElementOnPage(driver);
-        MainPage mainPage = new MainPage(driver);
-        //System.out.println(ConfigData.ui("MainPage.NotificationPanel"));
-        mainPage.openMainPage();
-        //System.out.println(webElementOnPage.isElementOnPage("MainPage.NotificationPanel"));
-        //System.out.println(mainPage.isNotificationPanelIsPresent());
-        webElementOnPage.mouseOnElementAndClick("MainPage.Menu.Button");
-        webElementOnPage.mouseOnElementAndClick("MainPage.Menu.SmartPhonesTvElectronic.Link");
-        driver.findElement(By.xpath(".//a[@href='http://rozetka.com.ua/mobile-phones/c80003/filter/']")).click();
+        Boolean bool;
+        String str = "2 999 грн";
+        String elementS = str.replaceAll("\\D", "");
+        System.out.println(elementS);
+        if (!elementS.equals("")) {
+            if (Integer.parseInt(elementS) > 6000)
+            System.out.println("The price "+ elementS + " higher than " + 6000);
+
+        }
+    }
 
 
 
@@ -34,4 +34,4 @@ public class MouseOnOf {
 
 
     }
-}
+

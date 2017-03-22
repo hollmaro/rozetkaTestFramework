@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ru.yandex.qatools.allure.annotations.Step;
 
+import java.util.List;
+
 import static com.rozetka.libs.ConfigData.ui;
 
 /**
@@ -49,5 +51,28 @@ public class PhonePage {
                 webElementOnPage.clickLink("PhonesPage.PriceFilter.Submit.Button");
         log.info("Button \"OK\" for price filter was clicked: " + tempElement);
         return tempElement;
+    }
+
+    /**
+     * method checks if price is lower than <PRICE>
+     * @param price
+     * @return
+     */
+    @Step("Checks if price is lower than: {0}")
+    public boolean isMainPriceLowerThan(int price){
+        boolean bool = true;
+        String elementS;
+        List<WebElement> list = webElementOnPage.collectionOfElements("PhonesPage.ActualPrices.List");
+        for(WebElement element: list) {
+            elementS = element.getText().replaceAll("\\D", "");
+            if (!elementS.equals("")) {
+                if (Integer.parseInt(elementS) > price)
+                    bool = false;
+                    break;
+            }
+        }
+        log.info("All prices are lower than " + price + " : " + bool);
+        return bool;
+
     }
 }

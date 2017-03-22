@@ -4,10 +4,12 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.apache.log4j.Logger;
+import org.junit.Ignore;
 
 /**
  * Unit test for simple App.
  */
+@Ignore
 public class AppTest 
     extends TestCase
 {

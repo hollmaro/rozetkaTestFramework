@@ -1,5 +1,6 @@
 package com.rozetka.libs;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import junit.framework.Assert;
@@ -322,6 +323,17 @@ public class WebElementOnPage {
 		}
 
 
+	}
+
+	/**
+	 * method return list of elements like List<WebElement>
+	 * @param keyElementLocator
+	 * @return
+	 */
+	public List<WebElement> collectionOfElements(String keyElementLocator){
+		List<WebElement> mapOfElements = driver.findElements(ui(keyElementLocator));
+		log.info("Make list of elements by keyElementLocator: " + keyElementLocator);
+		return mapOfElements;
 	}
 }
 

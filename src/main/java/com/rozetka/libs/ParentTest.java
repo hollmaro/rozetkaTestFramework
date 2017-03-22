@@ -1,7 +1,8 @@
-package com.rozetka;
+package com.rozetka.libs;
 
 import org.apache.log4j.Logger;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.rules.TestName;
 import org.junit.runner.RunWith;
