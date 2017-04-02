@@ -2,114 +2,114 @@
 2017-02-03 23:08:32   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-02-03 23:46:02   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-02-03 23:46:02   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-04-03 20:44:44   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-04-03 20:44:44   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-04-03 20:44:44   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-04-03 20:44:44   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-04-03 20:44:55   INFO [com.rozetka.libs.WebElementOnPage] : Browser and urlhttp://rozetka.com.uawas opened!
 2017-04-03 20:44:55   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-04-03 20:44:59   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-04-03 20:44:59   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-04-03 20:48:21   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-04-03 20:48:22   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-04-03 20:48:51   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-04-03 20:48:51   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-04-03 20:48:51   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-04-03 20:48:51   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-04-03 20:49:06   INFO [com.rozetka.libs.WebElementOnPage] : Browser and urlhttp://rozetka.com.uawas opened!
 2017-04-03 20:49:06   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-04-03 20:49:07   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-04-03 20:49:07   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-04-03 20:56:02   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-04-03 20:56:03   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-04-03 22:18:09   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-04-03 22:18:09   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-04-03 22:18:09   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-04-03 22:18:09   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-04-03 22:18:27   INFO [com.rozetka.libs.WebElementOnPage] : Browser and urlhttp://rozetka.com.uawas opened!
 2017-04-03 22:18:27   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-04-03 22:18:34   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-04-03 22:18:34   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-04-03 22:23:25   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-04-03 22:23:25   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-04-03 22:23:25   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-04-03 22:23:25   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-04-03 22:23:36   INFO [com.rozetka.libs.WebElementOnPage] : Browser and urlhttp://rozetka.com.uawas opened!
 2017-04-03 22:23:36   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-04-03 22:23:39   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-04-03 22:23:39   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-04-03 22:29:43   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-04-03 22:29:43   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-04-03 22:29:43   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-04-03 22:29:43   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-04-03 22:29:54   INFO [com.rozetka.libs.WebElementOnPage] : Browser and urlhttp://rozetka.com.uawas opened!
 2017-04-03 22:29:54   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-04-03 22:29:57   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-04-03 22:29:57   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-04-03 22:56:17   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.edge.EdgeDriver -------
-2017-04-03 22:56:17   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-04-03 22:56:17   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.edge.EdgeDriver -------
+2017-04-03 22:56:17   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-04-03 22:56:22   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-04-03 22:56:22   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-04-03 22:56:31   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-04-03 22:56:31   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-04-03 23:05:13   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-04-03 23:05:13   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-04-03 23:05:13   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-04-03 23:05:13   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-04-03 23:06:03   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-04-03 23:06:03   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-04-03 23:06:05   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-04-03 23:06:05   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-05-03 18:11:47   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 18:11:47   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 18:11:47   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 18:11:47   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 18:12:00   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 18:12:00   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 18:12:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 18:12:04   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-05-03 18:24:04   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-05-03 18:24:05   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-05-03 18:24:14   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 18:24:14   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 18:24:14   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 18:24:14   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 18:24:24   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 18:24:24   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 18:24:28   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 18:24:28   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-05-03 18:37:24   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-05-03 18:37:25   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-05-03 18:37:43   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 18:37:43   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 18:37:43   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 18:37:43   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 18:37:56   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 18:37:56   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 18:38:00   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 18:38:00   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-05-03 19:05:48   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 19:05:48   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 19:05:48   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 19:05:48   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 19:05:58   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 19:05:58   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 19:06:01   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 19:06:01   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-05-03 19:06:54   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 19:06:54   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 19:06:54   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 19:06:54   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 19:06:54  ERROR [com.rozetka.pages.MainPage] : Can't find main url from file config.properties! 
 2017-05-03 19:06:54  ERROR [com.rozetka.libs.WebElementOnPage] : java.lang.NullPointerException: null value in entry: url=null
 2017-05-03 19:06:56   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 19:06:56   INFO [com.rozetka.pages.MainPage] : Browser was closed from page null
 2017-05-03 19:37:12   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-05-03 19:37:13   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-05-03 19:37:23   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 19:37:23   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 19:37:23   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 19:37:23   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 19:37:32   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 19:37:32   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 19:37:35   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 19:37:35   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-05-03 19:39:48   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 19:39:48   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 19:39:48   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 19:39:48   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 19:39:56   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 19:39:56   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 19:39:59   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 19:39:59   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-05-03 20:04:56   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 20:04:56   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 20:04:56   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 20:04:56   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 20:05:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 20:05:04   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 20:05:06   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 20:05:06   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-05-03 20:54:28   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 20:54:28   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 20:54:28   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 20:54:28   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 20:54:37   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 20:54:37   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 20:54:40   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 20:54:40   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-05-03 20:57:47   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 20:57:47   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 20:57:47   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 20:57:47   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 20:57:55   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 20:57:55   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 20:57:55  ERROR [ConfigData] : Can't get locator!
@@ -120,8 +120,8 @@
 2017-05-03 20:57:55   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
 2017-05-03 20:57:58   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 20:57:58   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-05-03 21:11:27   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-05-03 21:11:27   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-05-03 21:11:27   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-05-03 21:11:27   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-05-03 21:11:38   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-05-03 21:11:38   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-05-03 21:11:38  ERROR [ConfigData] : Can't get locator!
@@ -132,14 +132,14 @@
 2017-05-03 21:11:38   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
 2017-05-03 21:11:41   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-05-03 21:11:41   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 00:43:58   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-06-03 00:43:58   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 00:43:58   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-06-03 00:43:58   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 00:44:19   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 00:44:19   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 00:44:22   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 00:44:22   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 00:46:21   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-06-03 00:46:21   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 00:46:21   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-06-03 00:46:21   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 00:46:30   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 00:46:30   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 00:46:30  ERROR [ConfigData] : Can't get locator!
@@ -156,8 +156,8 @@
 2017-06-03 00:46:30   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: false
 2017-06-03 00:46:32   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 00:46:32   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 01:09:17   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
-2017-06-03 01:09:17   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 01:09:17   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.ie.InternetExplorerDriver -------
+2017-06-03 01:09:17   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 01:09:26   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 01:09:26   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 01:09:26  ERROR [ConfigData] : Can't get locator!
@@ -174,8 +174,8 @@
 2017-06-03 01:09:26   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: false
 2017-06-03 01:09:28   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 01:09:28   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 01:11:27   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 01:11:28   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 01:11:27   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 01:11:28   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 01:11:43   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 01:11:43   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 01:11:43  ERROR [ConfigData] : Can't get locator!
@@ -192,14 +192,14 @@
 2017-06-03 01:11:43   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: false
 2017-06-03 01:11:49   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 01:11:49   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 01:14:36   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 01:14:37   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 01:14:36   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 01:14:37   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 01:14:47   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 01:14:47   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 01:14:50   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 01:14:50   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 01:25:18   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 01:25:18   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 01:25:18   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 01:25:18   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 01:25:29   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 01:25:29   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 01:25:29  ERROR [ConfigData] : Can't get locator!
@@ -222,8 +222,8 @@
 2017-06-03 01:41:33   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 01:45:15   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 01:45:15   INFO [com.rozetka.pages.MainPage] : Main page was opened!
-2017-06-03 01:47:11   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 01:47:11   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 01:47:11   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 01:47:11   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 01:47:22   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 01:47:22   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 01:47:22  ERROR [ConfigData] : Can't get locator!
@@ -240,8 +240,8 @@
 2017-06-03 01:47:22   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: false
 2017-06-03 01:47:26   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 01:47:26   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 01:51:44   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 01:51:44   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 01:51:44   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 01:51:44   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 01:51:54   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 01:51:54   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 01:51:55  ERROR [ConfigData] : Can't get locator!
@@ -262,8 +262,8 @@
 2017-06-03 01:56:12   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: false
 2017-06-03 02:04:28   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 02:04:28   INFO [com.rozetka.pages.MainPage] : Main page was opened!
-2017-06-03 02:08:34   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 02:08:34   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 02:08:34   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 02:08:34   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 02:08:47   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 02:08:47   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 02:08:47  ERROR [ConfigData] : Can't get locator!
@@ -275,8 +275,8 @@
 2017-06-03 02:08:47  ERROR [ConfigData] : Can't get locator!
 2017-06-03 02:08:57   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 02:08:57   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 02:22:05   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 02:22:05   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 02:22:05   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 02:22:05   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 02:22:21   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 02:22:21   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 02:22:22  ERROR [ConfigData] : Can't get locator!
@@ -294,8 +294,8 @@
 2017-06-03 02:30:06   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 02:34:10   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 02:34:10   INFO [com.rozetka.pages.MainPage] : Main page was opened!
-2017-06-03 02:40:21   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 02:40:21   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 02:40:21   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 02:40:21   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 02:40:34   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 02:40:34   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 02:40:34  ERROR [ConfigData] : Can't get locator!
@@ -314,8 +314,8 @@
 2017-06-03 02:40:38   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-06-03 02:42:29   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 02:42:29   INFO [com.rozetka.pages.MainPage] : Main page was opened!
-2017-06-03 02:44:57   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 02:44:58   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 02:44:57   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 02:44:58   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 02:45:10   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 02:45:10   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 02:45:10  ERROR [ConfigData] : Can't get locator!
@@ -327,8 +327,8 @@
 2017-06-03 02:45:10  ERROR [ConfigData] : Can't get locator!
 2017-06-03 02:45:21   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 02:45:21   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 02:53:35   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 02:53:35   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 02:53:35   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 02:53:35   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 02:53:47   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 02:53:47   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 02:53:47  ERROR [ConfigData] : Can't get locator!
@@ -340,29 +340,29 @@
 2017-06-03 02:53:47  ERROR [ConfigData] : Can't get locator!
 2017-06-03 02:53:51   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 02:53:51   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 03:30:38   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 03:30:38   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 03:30:38   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 03:30:38   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 03:30:55   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 03:30:55   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 03:30:55  ERROR [ConfigData] : Can't get locator!
 2017-06-03 03:31:06   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 03:31:06   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 03:33:07   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 03:33:07   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 03:33:07   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 03:33:07   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 03:33:23   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 03:33:23   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 03:33:23  ERROR [ConfigData] : Can't get locator!
 2017-06-03 03:33:27   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 03:33:27   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 03:39:47   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 03:39:47   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 03:39:47   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 03:39:47   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 03:39:59   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 03:39:59   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 03:39:59  ERROR [ConfigData] : Can't get locator!
 2017-06-03 03:40:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 03:40:04   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 03:48:56   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 03:48:56   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 03:48:56   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 03:48:56   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 03:49:10   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 03:49:10   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 03:49:10  ERROR [ConfigData] : Can't get locator!
@@ -370,16 +370,16 @@
 2017-06-03 03:49:17   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-06-03 03:59:45   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 03:59:45   INFO [com.rozetka.pages.MainPage] : Main page was opened!
-2017-06-03 04:02:05   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 04:02:05   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 04:02:05   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 04:02:05   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 04:02:18   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 04:02:18   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 04:02:22   INFO [com.rozetka.libs.WebElementOnPage] : Text iwohfgbiwhvepfiuawvpihwpvrihqe was typed in input!
 2017-06-03 04:02:22   INFO [com.rozetka.pages.MainPage] : Text iwohfgbiwhvepfiuawvpihwpvrihqewas typed in Search Input
 2017-06-03 04:02:29   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 04:02:29   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 04:03:52   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 04:03:52   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 04:03:52   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 04:03:52   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 04:04:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 04:04:04   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 04:04:07   INFO [com.rozetka.libs.WebElementOnPage] : Text                      was typed in input!
@@ -389,12 +389,12 @@
 2017-06-03 04:04:11   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-06-03 04:59:26   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-06-03 04:59:27   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-06-03 04:59:54   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 04:59:54   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 04:59:54   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 04:59:54   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 05:00:01   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 05:00:01   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 08:06:27   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 08:06:27   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 08:06:27   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 08:06:27   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 08:07:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 08:07:04   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 08:07:05  ERROR [ConfigData] : Can't get locator!
@@ -406,8 +406,8 @@
 2017-06-03 08:07:05  ERROR [ConfigData] : Can't get locator!
 2017-06-03 08:07:14   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 08:07:14   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 08:22:20   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 08:22:21   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 08:22:20   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 08:22:21   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 08:22:34   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 08:22:34   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 08:22:35  ERROR [ConfigData] : Can't get locator!
@@ -442,8 +442,8 @@ Session ID: db53b7d9-7ae2-4870-89bc-13332c3382d3
 2017-06-03 08:22:38   INFO [com.rozetka.pages.PhonePage] : Was checked
 2017-06-03 08:22:52   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 08:22:52   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 08:25:47   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 08:25:47   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 08:25:47   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 08:25:47   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 08:25:49  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@class='rz-header-search-input-text passive' and @type='text']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
@@ -487,8 +487,8 @@ Session ID: a3ab98b4-c232-43e9-8ee9-118736ca0d2b
 2017-06-03 08:26:00   INFO [com.rozetka.pages.PhonePage] : Was checked
 2017-06-03 08:26:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 08:26:04   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 08:28:47   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 08:28:47   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 08:28:47   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 08:28:47   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 08:29:00   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 08:29:00   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 08:29:01   INFO [com.rozetka.libs.WebElementOnPage] : Text 123qwe123qwe was typed in input!
@@ -525,8 +525,8 @@ Session ID: 052c97d4-8960-4205-8f45-ee26626c13ba
 2017-06-03 08:29:02   INFO [com.rozetka.pages.PhonePage] : Was checked
 2017-06-03 08:29:06   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 08:29:06   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 08:32:57   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 08:32:58   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 08:32:57   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 08:32:58   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 08:33:10   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 08:33:10   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 08:33:10  ERROR [ConfigData] : Can't get locator!
@@ -564,8 +564,8 @@ Session ID: d9605d77-d2ad-47ff-8626-add36bc467eb
 2017-06-03 08:37:44   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 08:37:44   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 08:37:44  ERROR [ConfigData] : Can't get locator!
-2017-06-03 08:40:36   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 08:40:36   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 08:40:36   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 08:40:36   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 08:40:48   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 08:40:48   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 08:40:48  ERROR [ConfigData] : Can't get locator!
@@ -577,8 +577,8 @@ Session ID: d9605d77-d2ad-47ff-8626-add36bc467eb
 2017-06-03 08:40:48  ERROR [ConfigData] : Can't get locator!
 2017-06-03 08:40:52   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-06-03 08:40:52   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-06-03 08:47:19   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-06-03 08:47:20   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-06-03 08:47:19   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-06-03 08:47:20   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-06-03 08:47:32   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-06-03 08:47:32   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-06-03 08:47:32  ERROR [ConfigData] : Can't get locator!
@@ -600,8 +600,8 @@ Session ID: d9605d77-d2ad-47ff-8626-add36bc467eb
 2017-07-03 22:33:30   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-07-03 22:34:40   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-07-03 22:34:40   INFO [com.rozetka.pages.MainPage] : Main page was opened!
-2017-07-03 23:02:12   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-07-03 23:02:12   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-07-03 23:02:12   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-07-03 23:02:12   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-07-03 23:02:25   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-07-03 23:02:25   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-07-03 23:02:25  ERROR [ConfigData] : Can't get locator!
@@ -625,7 +625,7 @@ Session ID: d9605d77-d2ad-47ff-8626-add36bc467eb
 2017-07-03 23:02:41  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: #price\[max\]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: efd5a9cb-3958-4a05-a75b-4eb3f9cafb26
@@ -634,7 +634,7 @@ Session ID: efd5a9cb-3958-4a05-a75b-4eb3f9cafb26
 2017-07-03 23:02:58  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@href='http://rozetka.com.ua/mobile-phones/c80003/preset=smartfon;23777=25315/']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: efd5a9cb-3958-4a05-a75b-4eb3f9cafb26
@@ -672,8 +672,8 @@ Session ID: efd5a9cb-3958-4a05-a75b-4eb3f9cafb26
 2017-07-03 23:37:54  ERROR [ConfigData] : Can't get locator!
 2017-07-03 23:37:54   INFO [com.rozetka.libs.WebElementOnPage] : Element not found
 2017-07-03 23:37:54   INFO [com.rozetka.pages.MainPage] : Notification panel is present: false
-2017-08-03 00:02:43   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-08-03 00:02:43   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-08-03 00:02:43   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-08-03 00:02:43   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-08-03 00:03:00   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-08-03 00:03:00   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-08-03 00:03:01  ERROR [ConfigData] : Can't get locator!
@@ -695,7 +695,7 @@ Session ID: efd5a9cb-3958-4a05-a75b-4eb3f9cafb26
 2017-08-03 00:03:18  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: #price\[max\]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: a0f31196-00c0-429d-9987-df5d1377383c
@@ -704,7 +704,7 @@ Session ID: a0f31196-00c0-429d-9987-df5d1377383c
 2017-08-03 00:03:33  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@href='http://rozetka.com.ua/mobile-phones/c80003/preset=smartfon;23777=25315/']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: a0f31196-00c0-429d-9987-df5d1377383c
@@ -730,7 +730,7 @@ Session ID: a0f31196-00c0-429d-9987-df5d1377383c
 2017-08-03 00:28:25   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-08-03 00:28:25  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.UnsupportedCommandException: POST /session/078b5f3a-6222-497b-a7a6-15ee348573db/moveto did not match a known command
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: 078b5f3a-6222-497b-a7a6-15ee348573db
@@ -741,12 +741,12 @@ Session ID: 078b5f3a-6222-497b-a7a6-15ee348573db
 2017-08-03 00:32:02   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-08-03 00:32:02  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.UnsupportedCommandException: POST /session/24334306-bf71-4aeb-921a-0f87099472ff/moveto did not match a known command
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: 24334306-bf71-4aeb-921a-0f87099472ff
-2017-08-03 21:15:29   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-08-03 21:15:29   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-08-03 21:15:29   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-08-03 21:15:29   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-08-03 21:15:45   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-08-03 21:15:45   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-08-03 21:15:48   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -757,7 +757,7 @@ Session ID: 24334306-bf71-4aeb-921a-0f87099472ff
 2017-08-03 21:15:49   INFO [com.rozetka.pages.MainPage] : Menu button was clicked: true
 2017-08-03 21:15:49  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.UnsupportedCommandException: POST /session/1af62c0b-c006-43fc-9752-ee221e165a26/moveto did not match a known command
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: 1af62c0b-c006-43fc-9752-ee221e165a26
@@ -765,7 +765,7 @@ Session ID: 1af62c0b-c006-43fc-9752-ee221e165a26
 2017-08-03 21:16:04  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@href='http://rozetka.com.ua/mobile-phones/c80003/filter/']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: 1af62c0b-c006-43fc-9752-ee221e165a26
@@ -774,7 +774,7 @@ Session ID: 1af62c0b-c006-43fc-9752-ee221e165a26
 2017-08-03 21:16:20  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: #price\[max\]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: 1af62c0b-c006-43fc-9752-ee221e165a26
@@ -783,7 +783,7 @@ Session ID: 1af62c0b-c006-43fc-9752-ee221e165a26
 2017-08-03 21:16:35  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@href='http://rozetka.com.ua/mobile-phones/c80003/preset=smartfon;23777=25315/']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: 1af62c0b-c006-43fc-9752-ee221e165a26
@@ -795,12 +795,12 @@ Session ID: 1af62c0b-c006-43fc-9752-ee221e165a26
 2017-08-03 21:18:41   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-08-03 21:18:41  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.UnsupportedCommandException: POST /session/39cddc09-a5f9-41ef-abfc-d1cadc5e8098/moveto did not match a known command
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: 39cddc09-a5f9-41ef-abfc-d1cadc5e8098
-2017-08-03 22:01:58   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-08-03 22:01:58   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-08-03 22:01:58   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-08-03 22:01:58   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-08-03 22:02:15   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-08-03 22:02:15   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-08-03 22:02:17   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -813,7 +813,7 @@ Session ID: 39cddc09-a5f9-41ef-abfc-d1cadc5e8098
 2017-08-03 22:02:18   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
 2017-08-03 22:02:19  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.ElementNotVisibleException: Element is not visible
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: f28ae168-42f4-45ad-81e7-36ec7cfab9c9
@@ -821,7 +821,7 @@ Session ID: f28ae168-42f4-45ad-81e7-36ec7cfab9c9
 2017-08-03 22:02:34  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: #price\[max\]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: f28ae168-42f4-45ad-81e7-36ec7cfab9c9
@@ -830,7 +830,7 @@ Session ID: f28ae168-42f4-45ad-81e7-36ec7cfab9c9
 2017-08-03 22:02:49  ERROR [com.rozetka.libs.WebElementOnPage] : org.openqa.selenium.NoSuchElementException: Unable to locate element: .//*[@href='http://rozetka.com.ua/mobile-phones/c80003/preset=smartfon;23777=25315/']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'ROMAN-ой', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+System info: host: 'ROMAN-О©╫О©╫', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161031133903, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=47.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
 Session ID: f28ae168-42f4-45ad-81e7-36ec7cfab9c9
@@ -856,8 +856,8 @@ Session ID: f28ae168-42f4-45ad-81e7-36ec7cfab9c9
 2017-13-03 20:23:18   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-13-03 20:25:23   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-13-03 20:25:23   INFO [com.rozetka.pages.MainPage] : Main page was opened!
-2017-13-03 20:41:17   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-13-03 20:41:17   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-13-03 20:41:17   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-13-03 20:41:17   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-13-03 20:41:30   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-13-03 20:41:30   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-13-03 20:41:30   INFO [com.rozetka.libs.WebElementOnPage] : Link [[FirefoxDriver: Firefox on XP (5c4cc6af-aede-415f-b6c0-8b5f89a91c80)] -> xpath: .//*[@href='http://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/' and @name='fat_menu_link']] was clicked!
@@ -870,8 +870,8 @@ Session ID: f28ae168-42f4-45ad-81e7-36ec7cfab9c9
 2017-13-03 20:41:44   INFO [com.rozetka.pages.PhonePage] : Was checked screen size 4 true
 2017-13-03 20:41:51   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-13-03 20:41:51   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-17-03 00:22:37   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
-2017-17-03 00:22:37   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-17-03 00:22:37   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-17-03 00:22:37   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-17-03 00:22:46   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-17-03 00:22:46   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-17-03 00:22:46   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (91d3aa7453e63a84314a9fcd9646b82c)] -> xpath: .//*[@href='http://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/' and @name='fat_menu_link']] was clicked!
@@ -920,8 +920,8 @@ Session ID: 91d3aa7453e63a84314a9fcd9646b82c
 2017-17-03 01:00:57   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-17-03 01:01:51   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-17-03 01:01:51   INFO [com.rozetka.pages.MainPage] : Main page was opened!
-2017-17-03 01:09:19   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
-2017-17-03 01:09:19   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-17-03 01:09:19   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.firefox.FirefoxDriver -------
+2017-17-03 01:09:19   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-17-03 01:09:30   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-17-03 01:09:30   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-17-03 01:09:32   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -937,8 +937,8 @@ Session ID: 373ea6f3-867d-4822-a9b4-90732b188cd1
 2017-17-03 01:09:33   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: false
 2017-17-03 01:09:34   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-17-03 01:09:34   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-17-03 01:11:10   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
-2017-17-03 01:11:10   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-17-03 01:11:10   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-17-03 01:11:10   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-17-03 01:11:18   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-17-03 01:11:18   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-17-03 01:11:18   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -967,8 +967,8 @@ Session ID: 7d990b82cc45ad8c596ae63817e71e01
 2017-17-03 01:11:46   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-17-03 01:24:13   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-17-03 01:24:13   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-17-03 01:24:18   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
-2017-17-03 01:24:18   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-17-03 01:24:18   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-17-03 01:24:18   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-17-03 01:24:26   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-17-03 01:24:26   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-17-03 01:24:26   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -987,8 +987,8 @@ Session ID: 7d990b82cc45ad8c596ae63817e71e01
 2017-17-03 01:24:47   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
 2017-19-03 23:17:14   INFO [com.rozetka.other.AppTest] : Everything ok!!!
 2017-19-03 23:17:14   INFO [com.rozetka.other.AppTest] : Everything ok!!!
-2017-19-03 23:24:41   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
-2017-19-03 23:24:41   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-19-03 23:24:41   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-19-03 23:24:41   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-19-03 23:24:49   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-19-03 23:24:49   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-19-03 23:24:50   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -1006,8 +1006,8 @@ Session ID: 7d990b82cc45ad8c596ae63817e71e01
 2017-19-03 23:25:18   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
 2017-19-03 23:25:18   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-19-03 23:25:18   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-22-03 01:39:55   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
-2017-22-03 01:39:55   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-22-03 01:39:55   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-22-03 01:39:55   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-22-03 01:40:04   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-22-03 01:40:04   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-22-03 01:40:04   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -1025,8 +1025,8 @@ Session ID: 7d990b82cc45ad8c596ae63817e71e01
 2017-22-03 01:40:30   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
 2017-22-03 01:40:30   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-22-03 01:40:30   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-22-03 01:47:06   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
-2017-22-03 01:47:06   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-22-03 01:47:06   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-22-03 01:47:06   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-22-03 01:47:17   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-22-03 01:47:17   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-22-03 01:47:17   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -1044,8 +1044,8 @@ Session ID: 7d990b82cc45ad8c596ae63817e71e01
 2017-22-03 01:47:41   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
 2017-22-03 01:47:41   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-22-03 01:47:41   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-22-03 01:53:46   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
-2017-22-03 01:53:46   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-22-03 01:53:46   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-22-03 01:53:46   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-22-03 01:53:59   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-22-03 01:53:59   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-22-03 01:53:59   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -1063,8 +1063,8 @@ Session ID: 7d990b82cc45ad8c596ae63817e71e01
 2017-22-03 01:54:22   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
 2017-22-03 01:54:22   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-22-03 01:54:22   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
-2017-22-03 02:00:30   INFO [com.rozetka.TestMain] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
-2017-22-03 02:00:30   INFO [com.rozetka.TestMain] : Test - testOpeningMainPage[0] - started
+2017-22-03 02:00:30   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-22-03 02:00:30   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
 2017-22-03 02:00:38   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
 2017-22-03 02:00:38   INFO [com.rozetka.pages.MainPage] : Main page was opened!
 2017-22-03 02:00:38   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
@@ -1084,3 +1084,216 @@ Session ID: 7d990b82cc45ad8c596ae63817e71e01
 2017-22-03 02:01:01   INFO [com.rozetka.pages.PhonePage] : Prise is lower than 6000 : true
 2017-22-03 02:01:01   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
 2017-22-03 02:01:01   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-31-03 19:31:45   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-31-03 19:31:46   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
+2017-31-03 19:31:55   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-31-03 19:31:55   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-31-03 19:31:56   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-31-03 19:31:56   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-31-03 19:31:56   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (91fd6a15a3002841bca002872140670a)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-31-03 19:31:56   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-31-03 19:31:57   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-31-03 19:31:57   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-31-03 19:31:57   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-31-03 19:31:57   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-31-03 19:32:10   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-31-03 19:32:10   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-31-03 19:32:25   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (91fd6a15a3002841bca002872140670a)] -> id: submitprice] was clicked!
+2017-31-03 19:32:25   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
+2017-31-03 19:32:26   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
+2017-31-03 19:32:26   INFO [com.rozetka.pages.PhonePage] : All prices are lower than 6000 : true
+2017-31-03 19:32:26   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-31-03 19:32:26   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-02-04 21:08:59   INFO [com.rozetka.TestPriceFilter] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-02-04 21:08:59   INFO [com.rozetka.TestPriceFilter] : Test - testOpeningMainPage[0] - started
+2017-02-04 21:09:11   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-02-04 21:09:11   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-02-04 21:09:11   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-02-04 21:09:11   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-02-04 21:09:11   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (a3d74ce25090dc94344d91c0074e2ab8)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-02-04 21:09:11   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-02-04 21:09:12   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element: MainPage.Menu.SmartPhonesTvElectronic.Link
+2017-02-04 21:09:12   INFO [com.rozetka.pages.MainPage] : Was opened menu item: MainPage.Menu.Phones.Link: true
+2017-02-04 21:09:12   INFO [com.rozetka.libs.WebElementOnPage] : Mouse moved on element MainPage.Menu.SmartPhones.Link and clicked!
+2017-02-04 21:09:12   INFO [com.rozetka.pages.MainPage] : Link Smartphones was clicked: true
+2017-02-04 21:09:23   INFO [com.rozetka.libs.WebElementOnPage] : Text 6000 was typed in input!
+2017-02-04 21:09:23   INFO [com.rozetka.pages.PhonePage] : Max price: 6000 was typed: true
+2017-02-04 21:09:37   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (a3d74ce25090dc94344d91c0074e2ab8)] -> id: submitprice] was clicked!
+2017-02-04 21:09:37   INFO [com.rozetka.pages.PhonePage] : Button "OK" for price filter was clicked: true
+2017-02-04 21:09:37   INFO [com.rozetka.libs.WebElementOnPage] : Make list of elements by keyElementLocator: PhonesPage.ActualPrices.List
+2017-02-04 21:09:37   INFO [com.rozetka.pages.PhonePage] : All prices are lower than 6000 : true
+2017-02-04 21:09:38   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-02-04 21:09:38   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-02-04 21:26:13   INFO [com.rozetka.TestLoginFormEntering] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-02-04 21:26:13   INFO [com.rozetka.TestLoginFormEntering] : Test - TestLogin[0] - started
+2017-02-04 21:26:22   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-02-04 21:26:22   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-02-04 21:26:22   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-02-04 21:26:22   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-02-04 21:26:23   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (03e95ac50389f34f7406656e17a7eca4)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-02-04 21:26:23   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-02-04 21:26:23   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (03e95ac50389f34f7406656e17a7eca4)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-02-04 21:26:23   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-02-04 21:26:24   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-02-04 21:26:39   INFO [com.rozetka.libs.WebElementOnPage] : Element not found
+2017-02-04 21:26:39   INFO [com.rozetka.pages.MainPage] : Notification panel is present: false
+2017-02-04 21:26:39   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-02-04 21:26:39   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-02-04 21:29:37   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-02-04 21:29:37   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-02-04 21:29:38   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (371f8a5620496d21e75f45f5213d3200)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-02-04 21:29:38   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:08:48   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 00:08:48   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 00:08:49   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (0b4b10b4da6d82414889e1641baf513f)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-03-04 00:08:49   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:08:49   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:10:10   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 00:10:10   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 00:10:10   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (72c7735dd9bcda18841ca52d2e383895)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-03-04 00:10:10   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:10:10   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:11:57   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 00:11:57   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 00:11:58   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (8bd84f96e55871eb05209da8e8bb9084)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-03-04 00:11:58   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:12:13   INFO [com.rozetka.libs.WebElementOnPage] : Element not found
+2017-03-04 00:13:50   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 00:13:50   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 00:13:58   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (71cfe3a4070e36679c00846e568f6a24)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-03-04 00:13:58   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:13:58   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:16:57   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 00:16:57   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 00:16:58   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (6172cd040ab7d7e9f1f3cfb869941ae0)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-03-04 00:16:58   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:17:13   INFO [com.rozetka.libs.WebElementOnPage] : Element not found
+2017-03-04 00:17:13   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:27:31   INFO [com.rozetka.TestLoginFormEntering] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-03-04 00:27:31   INFO [com.rozetka.TestLoginFormEntering] : Test - TestLogin[0] - started
+2017-03-04 00:27:40   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 00:27:40   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 00:27:40   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:27:40   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-03-04 00:27:40   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (4549445778df540c38829832376dadc8)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-03-04 00:27:40   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-03-04 00:27:41   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (4549445778df540c38829832376dadc8)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-03-04 00:27:41   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:27:41   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:27:41   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:27:41   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:27:41   INFO [com.rozetka.pages.MainPage] : Login form is present: true
+2017-03-04 00:27:41   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-03-04 00:27:41   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-03-04 00:49:30   INFO [com.rozetka.TestLoginValidData] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-03-04 00:49:30   INFO [com.rozetka.TestLoginValidData] : Test - TestLogin[0] - started
+2017-03-04 00:49:37   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 00:49:37   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 00:49:37   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:49:37   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-03-04 00:49:38   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (0c026106e385b5b69fa97ecbc4268de4)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-03-04 00:49:38   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-03-04 00:49:38   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (0c026106e385b5b69fa97ecbc4268de4)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-03-04 00:49:38   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:49:39   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:49:39   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:49:39   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:49:39   INFO [com.rozetka.pages.MainPage] : Login form is present: true
+2017-03-04 00:49:39   INFO [com.rozetka.libs.WebElementOnPage] : Text 1 was typed in input!
+2017-03-04 00:49:39   INFO [com.rozetka.pages.MainPage] : Text 1 was typed in email Input
+2017-03-04 00:49:39   INFO [com.rozetka.libs.WebElementOnPage] : Text 2 was typed in input!
+2017-03-04 00:49:39   INFO [com.rozetka.pages.MainPage] : Text 2 was typed in password Input
+2017-03-04 00:49:39   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (0c026106e385b5b69fa97ecbc4268de4)] -> xpath: .//*[@name='auth_submit']] was clicked!
+2017-03-04 00:49:39   INFO [com.rozetka.pages.MainPage] : Enter button was clicked: true
+2017-03-04 00:49:40   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:49:40   INFO [com.rozetka.pages.MainPage] : Email input is ERROR: true
+2017-03-04 00:49:55   INFO [com.rozetka.libs.WebElementOnPage] : Element not found
+2017-03-04 00:49:55   INFO [com.rozetka.pages.MainPage] : Password input is ERROR: false
+2017-03-04 00:49:56   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-03-04 00:49:56   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-03-04 00:51:14   INFO [com.rozetka.TestLoginValidData] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-03-04 00:51:14   INFO [com.rozetka.TestLoginValidData] : Test - TestLogin[0] - started
+2017-03-04 00:51:22   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 00:51:22   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 00:51:22   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:51:22   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-03-04 00:51:23   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (6edf53acec723dd7f8896615f4cf01fd)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-03-04 00:51:23   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-03-04 00:51:23   INFO [com.rozetka.libs.WebElementOnPage] : Link [[ChromeDriver: chrome on LINUX (6edf53acec723dd7f8896615f4cf01fd)] -> xpath: .//*[@id='header_user_menu_parent']/a] was clicked!
+2017-03-04 00:51:23   INFO [com.rozetka.pages.MainPage] : Link "Voidite v lichnyi cabinet" was clicked: true
+2017-03-04 00:51:23   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:51:23   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:51:23   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:51:23   INFO [com.rozetka.pages.MainPage] : Login form is present: true
+2017-03-04 00:51:24   INFO [com.rozetka.libs.WebElementOnPage] : Text 1 was typed in input!
+2017-03-04 00:51:24   INFO [com.rozetka.pages.MainPage] : Text 1 was typed in email Input
+2017-03-04 00:51:24   INFO [com.rozetka.libs.WebElementOnPage] : Text 2 was typed in input!
+2017-03-04 00:51:24   INFO [com.rozetka.pages.MainPage] : Text 2 was typed in password Input
+2017-03-04 00:51:24   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (6edf53acec723dd7f8896615f4cf01fd)] -> xpath: .//*[@name='auth_submit']] was clicked!
+2017-03-04 00:51:24   INFO [com.rozetka.pages.MainPage] : Enter button was clicked: true
+2017-03-04 00:51:25   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 00:51:25   INFO [com.rozetka.pages.MainPage] : Email input is ERROR: true
+2017-03-04 00:51:25   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-03-04 00:51:25   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-03-04 01:50:35   INFO [com.rozetka.TestSearch] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-03-04 01:50:35   INFO [com.rozetka.TestSearch] : Test - testOpeningMainPage[0] - started
+2017-03-04 01:50:48   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 01:50:48   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 01:50:49   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 01:50:49   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-03-04 01:50:49   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (f85886bbd98668fb4b48b95e11c1af52)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-03-04 01:50:49   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-03-04 01:50:50   INFO [com.rozetka.libs.WebElementOnPage] : Text Apple iPhone 7 Plus 256GB Black was typed in input!
+2017-03-04 01:50:50   INFO [com.rozetka.pages.MainPage] : Text Apple iPhone 7 Plus 256GB Blackwas typed in Search Input
+2017-03-04 01:51:00   INFO [com.rozetka.libs.WebElementOnPage] : Element not found
+2017-03-04 01:51:00   INFO [com.rozetka.pages.SearchPage] : Element with text Apple iPhone 7 Plus 256GB Black is on the page: false
+2017-03-04 01:51:00   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-03-04 01:51:00   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-03-04 01:55:17   INFO [com.rozetka.TestSearch] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-03-04 01:55:17   INFO [com.rozetka.TestSearch] : Test - testOpeningMainPage[0] - started
+2017-03-04 01:55:28   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 01:55:28   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 01:55:29   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 01:55:29   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-03-04 01:55:29   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (a2ced74fc117d12113dbbde0ff4700fd)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-03-04 01:55:29   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-03-04 01:55:31   INFO [com.rozetka.libs.WebElementOnPage] : Text Apple iPhone 7 Plus 256GB Black was typed in input!
+2017-03-04 01:55:31   INFO [com.rozetka.pages.MainPage] : Text Apple iPhone 7 Plus 256GB Blackwas typed in Search Input
+2017-03-04 01:55:34   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (a2ced74fc117d12113dbbde0ff4700fd)] -> name: rz-search-button] was clicked!
+2017-03-04 01:55:34   INFO [com.rozetka.pages.MainPage] : search button was clicked: true
+2017-03-04 01:55:50   INFO [com.rozetka.libs.WebElementOnPage] : Element not found
+2017-03-04 01:55:50   INFO [com.rozetka.pages.SearchPage] : Element with text Apple iPhone 7 Plus 256GB Black is on the page: false
+2017-03-04 01:55:50   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-03-04 01:55:50   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-03-04 02:02:29   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 02:02:29   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 02:02:29   INFO [com.rozetka.libs.WebElementOnPage] : Text sony was typed in input!
+2017-03-04 02:02:29   INFO [com.rozetka.pages.MainPage] : Text sonywas typed in Search Input
+2017-03-04 02:03:09   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 02:03:09   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 02:03:09   INFO [com.rozetka.libs.WebElementOnPage] : Text sony was typed in input!
+2017-03-04 02:03:09   INFO [com.rozetka.pages.MainPage] : Text sonywas typed in Search Input
+2017-03-04 02:03:13   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (3fd2598fe85e2564d43fd9429c6e5c28)] -> name: rz-search-button] was clicked!
+2017-03-04 02:03:13   INFO [com.rozetka.pages.MainPage] : search button was clicked: true
+2017-03-04 02:06:28   INFO [com.rozetka.TestSearch] :  ----- class org.openqa.selenium.chrome.ChromeDriver -------
+2017-03-04 02:06:28   INFO [com.rozetka.TestSearch] : Test - testOpeningMainPage[0] - started
+2017-03-04 02:06:42   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 02:06:42   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 02:06:42   INFO [com.rozetka.libs.WebElementOnPage] : Element is present on page
+2017-03-04 02:06:42   INFO [com.rozetka.pages.MainPage] : Notification panel is present: true
+2017-03-04 02:06:43   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (662778a1262b2e7e1ad682680fc0c928)] -> xpath: .//*[@class='notificationPanelBlock']] was clicked!
+2017-03-04 02:06:43   INFO [com.rozetka.pages.MainPage] : Button for canceling notifications was clicked! 
+2017-03-04 02:06:44   INFO [com.rozetka.libs.WebElementOnPage] : Text Apple iPhone 7 Plus 256GB Black was typed in input!
+2017-03-04 02:06:44   INFO [com.rozetka.pages.MainPage] : Text Apple iPhone 7 Plus 256GB Blackwas typed in Search Input
+2017-03-04 02:06:47   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (662778a1262b2e7e1ad682680fc0c928)] -> name: rz-search-button] was clicked!
+2017-03-04 02:06:47   INFO [com.rozetka.pages.MainPage] : search button was clicked: true
+2017-03-04 02:07:19   INFO [com.rozetka.libs.WebElementOnPage] : Element not found
+2017-03-04 02:08:13   INFO [com.rozetka.pages.SearchPage] : Element with text Apple iPhone 7 Plus 256GB Black is on the page: false
+2017-03-04 02:08:50   INFO [com.rozetka.libs.WebElementOnPage] : Browser was closed!
+2017-03-04 02:08:50   INFO [com.rozetka.pages.MainPage] : Browser was closed from page http://rozetka.com.ua
+2017-03-04 02:11:11   INFO [com.rozetka.libs.WebElementOnPage] : Browser and url http://rozetka.com.ua was opened!
+2017-03-04 02:11:11   INFO [com.rozetka.pages.MainPage] : Main page was opened!
+2017-03-04 02:11:11   INFO [com.rozetka.libs.WebElementOnPage] : Text sony was typed in input!
+2017-03-04 02:11:11   INFO [com.rozetka.pages.MainPage] : Text sonywas typed in Search Input
+2017-03-04 02:11:16   INFO [com.rozetka.libs.WebElementOnPage] : Button [[ChromeDriver: chrome on LINUX (783d08599c72036fd6fc3672f36044a1)] -> name: rz-search-button] was clicked!
+2017-03-04 02:11:16   INFO [com.rozetka.pages.MainPage] : search button was clicked: true

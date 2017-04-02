@@ -110,7 +110,7 @@ public class MainPage {
      * get page title
      * @return String title
      */
-    @Step("Is title corect")
+    @Step("Get title")
     public String getMainTitle() {
         return MAIN_PAGE_TITLE;
     }
@@ -138,5 +138,112 @@ public class MainPage {
         return tempElement;
     }
 
+    /**
+     * method clicks "Voidite v lichnyi cabinet"
+     * @return
+     */
+    @Step("Click \"Voidite v lichnyi cabinet\"")
+    public boolean clickEnterInCabinet() {
+        boolean tempElement =
+                webElementOnPage.clickLink("MainPage.Login.Link");
+        log.info("Link \"Voidite v lichnyi cabinet\" was clicked: " + tempElement);
+        return tempElement;
+    }
+    /**
+     * method checks if login form is on the page
+     * @return boolean
+     */
+    @Step("Checks if login form is on the page")
+    public boolean isLoginFormPresent() {
+        boolean tempElement =
+                webElementOnPage.isElementOnPage("MainPage.Login.Email.Input")&&
+                webElementOnPage.isElementOnPage("MainPage.Login.Password.Input")&&
+                webElementOnPage.isElementOnPage("MainPage.Login.Submit.Button");
+        log.info("Login form is present: " + tempElement);
+        return tempElement;
 
+    }
+
+    /**
+     * method typing text into email input
+     * @param text
+     * @return
+     */
+    @Step("Types text into email input")
+    public boolean typeTextIntoEmail(String text) {
+        try {
+            webElementOnPage.typeTextIntoInput(text, "MainPage.Login.Email.Input");
+            log.info("Text " + text + " was typed in email Input");
+            return true;
+        }catch (Exception e){
+            log.error(e);
+            return false;
+        }
+
+    }
+    /**
+     * method typing text into password input
+     * @param text
+     * @return
+     */
+    @Step("Types text into password input")
+    public boolean typeTextIntoPassw(String text) {
+        try {
+            webElementOnPage.typeTextIntoInput(text, "MainPage.Login.Password.Input");
+            log.info("Text " + text + " was typed in password Input");
+            return true;
+        }catch (Exception e){
+            log.error(e);
+            return false;
+        }
+
+    }
+    /**
+     * method clicks Enter button
+     * @return
+     */
+    @Step("Click Enter button")
+    public boolean clickEnterButton() {
+        boolean tempElement =
+                webElementOnPage.clickButton("MainPage.Login.Submit.Button");
+        log.info("Enter button was clicked: " + tempElement);
+        return tempElement;
+    }
+    /**
+     * method checks if email input is ERROR style
+     * @return boolean
+     */
+    @Step("Checks if email input is ERROR style")
+    public boolean isEmailInputError() {
+        boolean tempElement =
+                webElementOnPage.isElementOnPage("MainPage.Login.Email.Input_ERROR_STYLE");
+        log.info("Email input is ERROR: " + tempElement);
+        return tempElement;
+
+    }
+    /**
+     * method checks if password input is ERROR style
+     * @return boolean
+     */
+    @Step("Checks if password input is ERROR style")
+    public boolean isPasswInputError() {
+        boolean tempElement =
+                webElementOnPage.isElementOnPage("MainPage.Login.Password.Input_ERROR_STYLE");
+        log.info("Password input is ERROR: " + tempElement);
+        return tempElement;
+
+    }
+
+    /**
+     * method clicks Search button
+     * @return
+     */
+    @Step("Clicks Search button")
+    public boolean clickSearchButton() {
+        boolean tempElement =
+                webElementOnPage.clickButton("MainPage.SearchButton");
+        log.info("search button was clicked: " + tempElement);
+        return tempElement;
+
+    }
 }

@@ -230,6 +230,29 @@ public class WebElementOnPage {
 		
 	}
 	/**
+	 * Method checks presents of element on page by text
+	 * @param keyElementLocator
+	 * @return boolean
+	 */
+	public boolean isElementOnPage(String keyElementLocator, String textForSearch){
+		try {
+			WebElement tempElement;
+			tempElement = driver.findElement(ui(String.format(keyElementLocator, textForSearch)));
+			if (tempElement.isEnabled() && tempElement.isDisplayed()){
+				log.info("Element is present on page");
+				return true;
+			}
+			else{
+				log.info("Element is not Enable or not Displayed");
+				return false;
+			}
+		} catch (Exception e) {
+			log.info("Element not found");
+			return false;
+		}
+
+	}
+	/**
 	 * Method cheks is element on page by xpath locator
 	 * @param xpathElementLocator
 	 * @return boolean

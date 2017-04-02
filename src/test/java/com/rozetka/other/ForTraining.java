@@ -1,6 +1,7 @@
 package com.rozetka.other;
 
 import com.rozetka.libs.ConfigData;
+import com.rozetka.libs.WebElementOnPage;
 import com.rozetka.pages.MainPage;
 import org.omg.CORBA.TIMEOUT;
 import org.openqa.selenium.By;
@@ -34,54 +35,24 @@ public class ForTraining {
         System.setProperty("webdriver.ie.driver", "C:\\IEDriverServer.exe");
         System.setProperty("webdriver.edge.driver", "C:\\MicrosoftWebDriver.exe");*/
 
-        /*WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         MainPage mainPage;
         mainPage = new MainPage(driver);
+        WebElementOnPage webElementOnPage= new WebElementOnPage(driver);
 
 
         WebDriverWait wait = new WebDriverWait(driver, 30);
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        Actions actions = new Actions(driver);*/
+        Actions actions = new Actions(driver);
 
 
 
 
-        /*mainPage.openMainPage();
-        if(driver.findElement(ConfigData.ui("MainPage.NotificationPanel")).isDisplayed())
-           driver.findElement(ConfigData.ui("MainPage.NotificationPanel.Cancel.Button")).click();
-
-        //WebElement button = driver.findElement(ConfigData.ui("MainPage.Menu.Button"));
-        WebElement smartTvElectr = driver.findElement(ConfigData.ui("MainPage.Menu.SmartPhonesTvElectronic.Link"));
-
-
-
-
-
-        //smartTvElectr.click();
-        actions.moveToElement(smartTvElectr).build().perform();
-        WebElement smartphones = driver.findElement(ConfigData.ui("MainPage.Menu.SmartPhones.Link"));
-        System.out.println(smartphones.isDisplayed());
-        //wait.until(ExpectedConditions.elementToBeClickable(smartphones));
-        //smartphones.click();
-        actions.moveToElement(smartphones).click().build().perform();
-
-
-
-        *//*boolean te = b.isEnabled();
-        System.out.println(te);
-                    b.click();
-        System.out.println(b);
-        WebElement bb = driver.findElement(By.xpath("./[@href='http://rozetka.com.ua/mobile-phones/c80003/filter/preset=smartfon/']"));
-        te = bb.isEnabled();
-        System.out.println(te);
-                    bb.click();*//*
-        //bb.click();
-        //mainPage.clickMenuSmartphonesTvElectronic();
-        // b = phones.equals(ui("MainPage.Menu.PhonesTvElectronic"));
-        //System.out.println(b);
-        //System.out.println(phones);
-        System.out.println(getUiMappingValue("MainPage.Menu.SmartPhonesTvElectronic.Link"));
-        System.out.println(ui("MainPage.Menu.SmartPhonesTvElectronic.Link"));*/
+        mainPage.openMainPage();
+        mainPage.typeTextInSearch("sony");
+        mainPage.clickSearchButton();
+        String st = String.format(".//*[contains(text(), '%1$s')]", "sony");
+        System.out.println(driver.findElement(By.xpath(st)).getText());
 
     }
 
