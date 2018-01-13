@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.rozetka.TestMain
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 56.922 sec <<< FAILURE! - in com.rozetka.TestMain
-testOpeningMainPage[0](com.rozetka.TestMain)  Time elapsed: 37.021 sec  <<< ERROR!
-java.lang.NumberFormatException: For input string: "2 999 грн"
-	at com.rozetka.TestMain.testOpeningMainPage(TestMain.java:50)
-

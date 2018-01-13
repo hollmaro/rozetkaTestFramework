@@ -1,1 +1,7 @@
-com/rozetka/libs/ParentTest.class
+com\rozetka\libs\ConfigData.class
+com\rozetka\libs\ParentTest.class
+com\rozetka\pages\SearchPage.class
+com\rozetka\pages\MainPage.class
+App.class
+com\rozetka\pages\PhonePage.class
+com\rozetka\libs\WebElementOnPage.class
